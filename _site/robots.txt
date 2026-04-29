@@ -1,1 +1,0 @@
-Sitemap: https://livingearthlab.github.io/le_handbook/sitemap.xml
