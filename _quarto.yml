@@ -4,8 +4,8 @@ project:
 website: 
   page-navigation: true
   title: "Living Earth" 
-  site-url: "https://ggiuliani.github.io/quarto/" 
-  repo-url: "https://github.com/ggiuliani/quarto" 
+  site-url: "https://livingearthlab.github.io/le_handbook/" 
+  repo-url: "https://github.com/LivingEarthLab/le_handbook" 
   repo-actions: [edit, issue]
   
   page-footer:
@@ -21,7 +21,7 @@ website:
         href: https://livingearthhub.org
         text: "Living Earth Hub"
       - icon: github
-        href: https://github.com/ggiuliani/quarto
+        href: https://github.com/LivingEarthLab/le_handbook
         text: "Quarto website repository"        
 
     style: "docked"
