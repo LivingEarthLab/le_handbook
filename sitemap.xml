@@ -2,66 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://livingearthlab.github.io/le_handbook/quickstart.html</loc>
-    <lastmod>2026-04-29T12:27:57.758Z</lastmod>
-  </url>
-  <url>
-    <loc>https://livingearthlab.github.io/le_handbook/tutorials/tuto1.html</loc>
-    <lastmod>2026-04-29T12:27:57.758Z</lastmod>
-  </url>
-  <url>
-    <loc>https://livingearthlab.github.io/le_handbook/index.html</loc>
-    <lastmod>2026-04-29T12:27:57.756Z</lastmod>
-  </url>
-  <url>
-    <loc>https://livingearthlab.github.io/le_handbook/intro_lccs.html</loc>
-    <lastmod>2026-04-29T12:27:57.757Z</lastmod>
-  </url>
-  <url>
-    <loc>https://livingearthlab.github.io/le_handbook/documentation/layer_values.html</loc>
-    <lastmod>2026-04-29T12:27:57.755Z</lastmod>
-  </url>
-  <url>
-    <loc>https://livingearthlab.github.io/le_handbook/documentation/variables.html</loc>
-    <lastmod>2026-04-29T12:27:57.755Z</lastmod>
-  </url>
-  <url>
-    <loc>https://livingearthlab.github.io/le_handbook/change.html</loc>
-    <lastmod>2026-04-29T12:27:57.754Z</lastmod>
-  </url>
-  <url>
-    <loc>https://livingearthlab.github.io/le_handbook/workshops/index.html</loc>
-    <lastmod>2026-04-29T12:27:57.759Z</lastmod>
-  </url>
-  <url>
-    <loc>https://livingearthlab.github.io/le_handbook/workshops/earsel2026.html</loc>
-    <lastmod>2026-04-29T12:27:57.758Z</lastmod>
-  </url>
-  <url>
-    <loc>https://livingearthlab.github.io/le_handbook/workshops/gistam2026.html</loc>
-    <lastmod>2026-04-29T12:27:57.758Z</lastmod>
-  </url>
-  <url>
-    <loc>https://livingearthlab.github.io/le_handbook/documentation/classification.html</loc>
-    <lastmod>2026-04-29T12:27:57.754Z</lastmod>
-  </url>
-  <url>
-    <loc>https://livingearthlab.github.io/le_handbook/documentation/data_ingestion.html</loc>
-    <lastmod>2026-04-29T12:27:57.754Z</lastmod>
+    <lastmod>2026-04-29T12:30:59.409Z</lastmod>
   </url>
   <url>
     <loc>https://livingearthlab.github.io/le_handbook/documentation/index.html</loc>
-    <lastmod>2026-04-29T12:27:57.755Z</lastmod>
+    <lastmod>2026-04-29T12:30:59.409Z</lastmod>
   </url>
   <url>
-    <loc>https://livingearthlab.github.io/le_handbook/acknowledgements.html</loc>
-    <lastmod>2026-04-29T12:27:57.753Z</lastmod>
+    <loc>https://livingearthlab.github.io/le_handbook/documentation/layer_values.html</loc>
+    <lastmod>2026-04-29T12:30:59.409Z</lastmod>
   </url>
   <url>
     <loc>https://livingearthlab.github.io/le_handbook/tutorials/index.html</loc>
-    <lastmod>2026-04-29T12:27:57.758Z</lastmod>
+    <lastmod>2026-04-29T12:30:59.409Z</lastmod>
+  </url>
+  <url>
+    <loc>https://livingearthlab.github.io/le_handbook/workshops/index.html</loc>
+    <lastmod>2026-04-29T12:30:59.411Z</lastmod>
+  </url>
+  <url>
+    <loc>https://livingearthlab.github.io/le_handbook/workshops/earsel2026.html</loc>
+    <lastmod>2026-04-29T12:30:59.410Z</lastmod>
+  </url>
+  <url>
+    <loc>https://livingearthlab.github.io/le_handbook/acknowledgements.html</loc>
+    <lastmod>2026-04-29T12:30:59.408Z</lastmod>
+  </url>
+  <url>
+    <loc>https://livingearthlab.github.io/le_handbook/change.html</loc>
+    <lastmod>2026-04-29T12:30:59.408Z</lastmod>
   </url>
   <url>
     <loc>https://livingearthlab.github.io/le_handbook/installation.html</loc>
-    <lastmod>2026-04-29T12:27:57.757Z</lastmod>
+    <lastmod>2026-04-29T12:30:59.409Z</lastmod>
+  </url>
+  <url>
+    <loc>https://livingearthlab.github.io/le_handbook/intro_lccs.html</loc>
+    <lastmod>2026-04-29T12:30:59.409Z</lastmod>
+  </url>
+  <url>
+    <loc>https://livingearthlab.github.io/le_handbook/index.html</loc>
+    <lastmod>2026-04-29T12:30:59.409Z</lastmod>
+  </url>
+  <url>
+    <loc>https://livingearthlab.github.io/le_handbook/workshops/gistam2026.html</loc>
+    <lastmod>2026-04-29T12:30:59.411Z</lastmod>
+  </url>
+  <url>
+    <loc>https://livingearthlab.github.io/le_handbook/tutorials/tuto1.html</loc>
+    <lastmod>2026-04-29T12:30:59.410Z</lastmod>
+  </url>
+  <url>
+    <loc>https://livingearthlab.github.io/le_handbook/documentation/classification.html</loc>
+    <lastmod>2026-04-29T12:30:59.408Z</lastmod>
+  </url>
+  <url>
+    <loc>https://livingearthlab.github.io/le_handbook/documentation/variables.html</loc>
+    <lastmod>2026-04-29T12:30:59.409Z</lastmod>
+  </url>
+  <url>
+    <loc>https://livingearthlab.github.io/le_handbook/documentation/data_ingestion.html</loc>
+    <lastmod>2026-04-29T12:30:59.409Z</lastmod>
   </url>
 </urlset>
