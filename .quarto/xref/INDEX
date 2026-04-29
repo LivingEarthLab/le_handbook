@@ -1,0 +1,53 @@
+{
+  "index.qmd": {
+    "index.html": "d0b27df2"
+  },
+  "workshops/earsel2026.qmd": {
+    "earsel2026.html": "2c7de925"
+  },
+  "workshops/index.qmd": {
+    "index.html": "bbc13269"
+  },
+  "workshops/gistam2026.qmd": {
+    "gistam2026.html": "1e478f05"
+  },
+  "change.qmd": {
+    "change.html": "e7373f2b",
+    "change.tex": "61a9dc11"
+  },
+  "documentation/classification.qmd": {
+    "classification.html": "946f7af2"
+  },
+  "documentation/variables.qmd": {
+    "variables.html": "b98fd63b"
+  },
+  "documentation/data_ingestion.qmd": {
+    "data_ingestion.html": "b735c5db"
+  },
+  "documentation/layer_values.qmd": {
+    "layer_values.html": "db425c42"
+  },
+  "documentation/index.qmd": {
+    "index.html": "ea78ff14"
+  },
+  "intro_lccs.qmd": {
+    "intro_lccs.html": "b0d502d7"
+  },
+  "acknowledgements.qmd": {
+    "acknowledgements.html": "26371f37"
+  },
+  "tutorials/index.qmd": {
+    "index.html": "7a169300"
+  },
+  "tutorials/tuto1.qmd": {
+    "tuto1.html": "8e41b7b7"
+  },
+  "installation.qmd": {
+    "installation.html": "f11fc7e2",
+    "installation.tex": "afccea9c"
+  },
+  "quickstart.qmd": {
+    "quickstart.html": "f751b04b",
+    "quickstart.tex": "1b3f055f"
+  }
+}
