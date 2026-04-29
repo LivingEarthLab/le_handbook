@@ -1,0 +1,76 @@
+project: 
+  type: website
+  
+website: 
+  page-navigation: true
+  title: "Living Earth" 
+  site-url: "https://ggiuliani.github.io/quarto/" 
+  repo-url: "https://github.com/ggiuliani/quarto" 
+  repo-actions: [edit, issue]
+  
+  page-footer:
+    right: "This page is built with [Quarto](https://quarto.org/)."
+    left: "&copy; CC-BY Living Earth Lab, 2026"
+    
+  sidebar:
+    logo: "images/le_logo.png"
+    pinned: true
+    align: center
+    tools: 
+      - icon: globe
+        href: https://livingearthhub.org
+        text: "Living Earth Hub"
+      - icon: github
+        href: https://github.com/ggiuliani/quarto
+        text: "Quarto website repository"        
+
+    style: "docked"
+    search: true
+    collapse-level: 1
+    contents:
+      - href: index.qmd
+        text: Welcome
+      - href: acknowledgements.qmd
+        text: Acknowledgements
+      - href: howto.qmd
+        text: How to use this handbook
+      - href: intro_lccs.qmd
+        text: Introduction to LCCS
+      - href: installation.qmd
+        text: Installation
+      - href: quickstart.qmd
+        text: Quick Start
+      - href: change.qmd
+        text: Change framework
+      - section: documentation/index.qmd
+        contents: 
+          - documentation/variables.qmd
+          - documentation/layer_values.qmd
+          - documentation/data_ingestion.qmd
+          - documentation/classification.qmd
+      - section: tutorials/index.qmd
+        contents: 
+          - tutorials/tuto1.qmd
+      - section: workshops/index.qmd
+        contents: 
+          - workshops/gistam2026.qmd
+          - workshops/earsel2026.qmd
+      - href: land_degradation.qmd
+        text: Land Degradation
+      - href: le_in_a_box.qmd
+        text: Living Earth in a Box
+      - href: national_implementations.qmd
+        text: National Implementations
+
+format:
+  html:
+    theme: cosmo
+    code-copy: true
+    code-overflow: wrap
+    toc: true
+
+
+filters:
+  - quarto
+
+  
