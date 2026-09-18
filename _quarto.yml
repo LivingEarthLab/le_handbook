@@ -14,6 +14,7 @@ website:
     
   sidebar:
     logo: "images/living-earth-logo.svg"
+    backgroundcolor: #23557B
     pinned: true
     align: center
     tools: 
