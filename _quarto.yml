@@ -14,7 +14,6 @@ website:
     
   sidebar:
     logo: "images/living-earth-logo.svg"
-    backgroundcolor: #23557B
     pinned: true
     align: center
     tools: 
@@ -26,6 +25,7 @@ website:
         text: "Quarto website repository"        
 
     style: "docked"
+    background: "#23557B"
     search: true
     collapse-level: 1
     contents:
