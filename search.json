@@ -1,5 +1,123 @@
 [
   {
+    "objectID": "acknowledgements.html",
+    "href": "acknowledgements.html",
+    "title": "Acknowledgements",
+    "section": "",
+    "text": "List of funding sources that supported the work.",
+    "crumbs": [
+      "Acknowledgements"
+    ]
+  },
+  {
+    "objectID": "acknowledgements.html#funding-sources",
+    "href": "acknowledgements.html#funding-sources",
+    "title": "Acknowledgements",
+    "section": "",
+    "text": "List of funding sources that supported the work.",
+    "crumbs": [
+      "Acknowledgements"
+    ]
+  },
+  {
+    "objectID": "acknowledgements.html#contributions",
+    "href": "acknowledgements.html#contributions",
+    "title": "Acknowledgements",
+    "section": "Contributions",
+    "text": "Contributions\nblacla",
+    "crumbs": [
+      "Acknowledgements"
+    ]
+  },
+  {
+    "objectID": "acknowledgements.html#publications-using-living-earth",
+    "href": "acknowledgements.html#publications-using-living-earth",
+    "title": "Acknowledgements",
+    "section": "Publications using Living Earth",
+    "text": "Publications using Living Earth\nThis is a 1-hour tutorial that can be used to teach or as self-paced learning.",
+    "crumbs": [
+      "Acknowledgements"
+    ]
+  },
+  {
+    "objectID": "tutorials/tuto1.html",
+    "href": "tutorials/tuto1.html",
+    "title": "How to create overaching ED?",
+    "section": "",
+    "text": "blalbla",
+    "crumbs": [
+      "Tutorials",
+      "How to create overaching ED?"
+    ]
+  },
+  {
+    "objectID": "tutorials/tuto1.html#welcome",
+    "href": "tutorials/tuto1.html#welcome",
+    "title": "How to create overaching ED?",
+    "section": "",
+    "text": "blalbla",
+    "crumbs": [
+      "Tutorials",
+      "How to create overaching ED?"
+    ]
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html",
+    "href": "CODE_OF_CONDUCT.html",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.\n\n\n\nExamples of behavior that contributes to a positive environment for our community include:\n\nDemonstrating empathy and kindness toward other people\nBeing respectful of differing opinions, viewpoints, and experiences\nGiving and gracefully accepting constructive feedback\nAccepting responsibility and apologizing to those affected by our mistakes, and learning from the experience\nFocusing on what is best not just for us as individuals, but for the overall community\n\nExamples of unacceptable behavior include:\n\nThe use of sexualized language or imagery, and sexual attention or advances of any kind\nTrolling, insulting or derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information, such as a physical or email address, without their explicit permission\nOther conduct which could reasonably be considered inappropriate in a professional setting\n\n\n\n\nCommunity leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.\nCommunity leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.\n\n\n\nThis Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.\n\n\n\nInstances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at 345776. All complaints will be reviewed and investigated promptly and fairly.\nAll community leaders are obligated to respect the privacy and security of the reporter of any incident.\n\n\n\nCommunity leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:\n\n\nCommunity Impact: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.\nConsequence: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.\n\n\n\nCommunity Impact: A violation through a single incident or series of actions.\nConsequence: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.\n\n\n\nCommunity Impact: A serious violation of community standards, including sustained inappropriate behavior.\nConsequence: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.\n\n\n\nCommunity Impact: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.\nConsequence: A permanent ban from any sort of public interaction within the community.\n\n\n\n\nThis Code of Conduct is adapted from the Contributor Covenant, version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.\nCommunity Impact Guidelines were inspired by Mozilla’s code of conduct enforcement ladder.\nFor answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#our-pledge",
+    "href": "CODE_OF_CONDUCT.html#our-pledge",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#our-standards",
+    "href": "CODE_OF_CONDUCT.html#our-standards",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "Examples of behavior that contributes to a positive environment for our community include:\n\nDemonstrating empathy and kindness toward other people\nBeing respectful of differing opinions, viewpoints, and experiences\nGiving and gracefully accepting constructive feedback\nAccepting responsibility and apologizing to those affected by our mistakes, and learning from the experience\nFocusing on what is best not just for us as individuals, but for the overall community\n\nExamples of unacceptable behavior include:\n\nThe use of sexualized language or imagery, and sexual attention or advances of any kind\nTrolling, insulting or derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information, such as a physical or email address, without their explicit permission\nOther conduct which could reasonably be considered inappropriate in a professional setting"
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#enforcement-responsibilities",
+    "href": "CODE_OF_CONDUCT.html#enforcement-responsibilities",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.\nCommunity leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#scope",
+    "href": "CODE_OF_CONDUCT.html#scope",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#enforcement",
+    "href": "CODE_OF_CONDUCT.html#enforcement",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at 345776. All complaints will be reviewed and investigated promptly and fairly.\nAll community leaders are obligated to respect the privacy and security of the reporter of any incident."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#enforcement-guidelines",
+    "href": "CODE_OF_CONDUCT.html#enforcement-guidelines",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:\n\n\nCommunity Impact: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.\nConsequence: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.\n\n\n\nCommunity Impact: A violation through a single incident or series of actions.\nConsequence: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.\n\n\n\nCommunity Impact: A serious violation of community standards, including sustained inappropriate behavior.\nConsequence: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.\n\n\n\nCommunity Impact: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.\nConsequence: A permanent ban from any sort of public interaction within the community."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#attribution",
+    "href": "CODE_OF_CONDUCT.html#attribution",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "This Code of Conduct is adapted from the Contributor Covenant, version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.\nCommunity Impact Guidelines were inspired by Mozilla’s code of conduct enforcement ladder.\nFor answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations."
+  },
+  {
     "objectID": "quickstart.html",
     "href": "quickstart.html",
     "title": "Quick Start Guide — Living Earth LCCS",
@@ -100,26 +218,6 @@
     ]
   },
   {
-    "objectID": "documentation/index.html",
-    "href": "documentation/index.html",
-    "title": "Documentation",
-    "section": "",
-    "text": "blalbla",
-    "crumbs": [
-      "Documentation"
-    ]
-  },
-  {
-    "objectID": "documentation/index.html#welcome",
-    "href": "documentation/index.html#welcome",
-    "title": "Documentation",
-    "section": "",
-    "text": "blalbla",
-    "crumbs": [
-      "Documentation"
-    ]
-  },
-  {
     "objectID": "documentation/layer_values.html",
     "href": "documentation/layer_values.html",
     "title": "Layer values",
@@ -142,23 +240,47 @@
     ]
   },
   {
-    "objectID": "tutorials/index.html",
-    "href": "tutorials/index.html",
-    "title": "Tutorials",
+    "objectID": "documentation/variables.html",
+    "href": "documentation/variables.html",
+    "title": "Variables",
     "section": "",
     "text": "blalbla",
     "crumbs": [
-      "Tutorials"
+      "Documentation",
+      "Variables"
     ]
   },
   {
-    "objectID": "tutorials/index.html#welcome",
-    "href": "tutorials/index.html#welcome",
-    "title": "Tutorials",
+    "objectID": "documentation/variables.html#welcome",
+    "href": "documentation/variables.html#welcome",
+    "title": "Variables",
     "section": "",
     "text": "blalbla",
     "crumbs": [
-      "Tutorials"
+      "Documentation",
+      "Variables"
+    ]
+  },
+  {
+    "objectID": "workshops/gistam2026.html",
+    "href": "workshops/gistam2026.html",
+    "title": "GISTAM 2026",
+    "section": "",
+    "text": "https://gistam.scitevents.org/Home.aspx",
+    "crumbs": [
+      "Workshops",
+      "GISTAM 2026"
+    ]
+  },
+  {
+    "objectID": "workshops/gistam2026.html#welcome",
+    "href": "workshops/gistam2026.html#welcome",
+    "title": "GISTAM 2026",
+    "section": "",
+    "text": "https://gistam.scitevents.org/Home.aspx",
+    "crumbs": [
+      "Workshops",
+      "GISTAM 2026"
     ]
   },
   {
@@ -179,294 +301,6 @@
     "text": "blalbla",
     "crumbs": [
       "Workshops"
-    ]
-  },
-  {
-    "objectID": "workshops/earsel2026.html",
-    "href": "workshops/earsel2026.html",
-    "title": "EARSeL 2026",
-    "section": "",
-    "text": "https://athens2026.earsel.org",
-    "crumbs": [
-      "Workshops",
-      "EARSeL 2026"
-    ]
-  },
-  {
-    "objectID": "workshops/earsel2026.html#welcome",
-    "href": "workshops/earsel2026.html#welcome",
-    "title": "EARSeL 2026",
-    "section": "",
-    "text": "https://athens2026.earsel.org",
-    "crumbs": [
-      "Workshops",
-      "EARSeL 2026"
-    ]
-  },
-  {
-    "objectID": "acknowledgements.html",
-    "href": "acknowledgements.html",
-    "title": "Acknowledgements",
-    "section": "",
-    "text": "List of funding sources that supported the work.",
-    "crumbs": [
-      "Acknowledgements"
-    ]
-  },
-  {
-    "objectID": "acknowledgements.html#funding-sources",
-    "href": "acknowledgements.html#funding-sources",
-    "title": "Acknowledgements",
-    "section": "",
-    "text": "List of funding sources that supported the work.",
-    "crumbs": [
-      "Acknowledgements"
-    ]
-  },
-  {
-    "objectID": "acknowledgements.html#contributions",
-    "href": "acknowledgements.html#contributions",
-    "title": "Acknowledgements",
-    "section": "Contributions",
-    "text": "Contributions\nblacla",
-    "crumbs": [
-      "Acknowledgements"
-    ]
-  },
-  {
-    "objectID": "acknowledgements.html#publications-using-living-earth",
-    "href": "acknowledgements.html#publications-using-living-earth",
-    "title": "Acknowledgements",
-    "section": "Publications using Living Earth",
-    "text": "Publications using Living Earth\nThis is a 1-hour tutorial that can be used to teach or as self-paced learning.",
-    "crumbs": [
-      "Acknowledgements"
-    ]
-  },
-  {
-    "objectID": "CODE_OF_CONDUCT.html",
-    "href": "CODE_OF_CONDUCT.html",
-    "title": "Contributor Covenant Code of Conduct",
-    "section": "",
-    "text": "We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.\n\n\n\nExamples of behavior that contributes to a positive environment for our community include:\n\nDemonstrating empathy and kindness toward other people\nBeing respectful of differing opinions, viewpoints, and experiences\nGiving and gracefully accepting constructive feedback\nAccepting responsibility and apologizing to those affected by our mistakes, and learning from the experience\nFocusing on what is best not just for us as individuals, but for the overall community\n\nExamples of unacceptable behavior include:\n\nThe use of sexualized language or imagery, and sexual attention or advances of any kind\nTrolling, insulting or derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information, such as a physical or email address, without their explicit permission\nOther conduct which could reasonably be considered inappropriate in a professional setting\n\n\n\n\nCommunity leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.\nCommunity leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.\n\n\n\nThis Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.\n\n\n\nInstances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at 345776. All complaints will be reviewed and investigated promptly and fairly.\nAll community leaders are obligated to respect the privacy and security of the reporter of any incident.\n\n\n\nCommunity leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:\n\n\nCommunity Impact: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.\nConsequence: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.\n\n\n\nCommunity Impact: A violation through a single incident or series of actions.\nConsequence: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.\n\n\n\nCommunity Impact: A serious violation of community standards, including sustained inappropriate behavior.\nConsequence: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.\n\n\n\nCommunity Impact: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.\nConsequence: A permanent ban from any sort of public interaction within the community.\n\n\n\n\nThis Code of Conduct is adapted from the Contributor Covenant, version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.\nCommunity Impact Guidelines were inspired by Mozilla’s code of conduct enforcement ladder.\nFor answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations."
-  },
-  {
-    "objectID": "CODE_OF_CONDUCT.html#our-pledge",
-    "href": "CODE_OF_CONDUCT.html#our-pledge",
-    "title": "Contributor Covenant Code of Conduct",
-    "section": "",
-    "text": "We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community."
-  },
-  {
-    "objectID": "CODE_OF_CONDUCT.html#our-standards",
-    "href": "CODE_OF_CONDUCT.html#our-standards",
-    "title": "Contributor Covenant Code of Conduct",
-    "section": "",
-    "text": "Examples of behavior that contributes to a positive environment for our community include:\n\nDemonstrating empathy and kindness toward other people\nBeing respectful of differing opinions, viewpoints, and experiences\nGiving and gracefully accepting constructive feedback\nAccepting responsibility and apologizing to those affected by our mistakes, and learning from the experience\nFocusing on what is best not just for us as individuals, but for the overall community\n\nExamples of unacceptable behavior include:\n\nThe use of sexualized language or imagery, and sexual attention or advances of any kind\nTrolling, insulting or derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information, such as a physical or email address, without their explicit permission\nOther conduct which could reasonably be considered inappropriate in a professional setting"
-  },
-  {
-    "objectID": "CODE_OF_CONDUCT.html#enforcement-responsibilities",
-    "href": "CODE_OF_CONDUCT.html#enforcement-responsibilities",
-    "title": "Contributor Covenant Code of Conduct",
-    "section": "",
-    "text": "Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.\nCommunity leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate."
-  },
-  {
-    "objectID": "CODE_OF_CONDUCT.html#scope",
-    "href": "CODE_OF_CONDUCT.html#scope",
-    "title": "Contributor Covenant Code of Conduct",
-    "section": "",
-    "text": "This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event."
-  },
-  {
-    "objectID": "CODE_OF_CONDUCT.html#enforcement",
-    "href": "CODE_OF_CONDUCT.html#enforcement",
-    "title": "Contributor Covenant Code of Conduct",
-    "section": "",
-    "text": "Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at 345776. All complaints will be reviewed and investigated promptly and fairly.\nAll community leaders are obligated to respect the privacy and security of the reporter of any incident."
-  },
-  {
-    "objectID": "CODE_OF_CONDUCT.html#enforcement-guidelines",
-    "href": "CODE_OF_CONDUCT.html#enforcement-guidelines",
-    "title": "Contributor Covenant Code of Conduct",
-    "section": "",
-    "text": "Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:\n\n\nCommunity Impact: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.\nConsequence: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.\n\n\n\nCommunity Impact: A violation through a single incident or series of actions.\nConsequence: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.\n\n\n\nCommunity Impact: A serious violation of community standards, including sustained inappropriate behavior.\nConsequence: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.\n\n\n\nCommunity Impact: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.\nConsequence: A permanent ban from any sort of public interaction within the community."
-  },
-  {
-    "objectID": "CODE_OF_CONDUCT.html#attribution",
-    "href": "CODE_OF_CONDUCT.html#attribution",
-    "title": "Contributor Covenant Code of Conduct",
-    "section": "",
-    "text": "This Code of Conduct is adapted from the Contributor Covenant, version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.\nCommunity Impact Guidelines were inspired by Mozilla’s code of conduct enforcement ladder.\nFor answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations."
-  },
-  {
-    "objectID": "installation.html",
-    "href": "installation.html",
-    "title": "Installing Living Earth LCCS",
-    "section": "",
-    "text": "Living Earth LCCS is an implementation of the FAO Land Cover Classification System (LCCS) designed to be applied to Earth Observation (EO) data. It was developed to generate land cover maps for countries such as Australia and Wales. The system takes multiple input products and combines them through a series of decision trees to produce all classes described as part of LCCS v2, with modifications where required for EO data.\nThe system is capable of ingesting products from OpenDataCube and any raster format compatible with GDAL (local or remote), with the option to expand via plugins. Existing products can be read directly, or products can be created from Analysis Ready Data (ARD) through the use of plugins and virtual products.\nThe software is open-source under an Apache 2.0 licence and hosted at the following locations:\n\nSource code: https://bitbucket.org/au-eoed/livingearth_lccs\nDocumentation: https://livingearth-lccs.readthedocs.io",
-    "crumbs": [
-      "Installation"
-    ]
-  },
-  {
-    "objectID": "installation.html#overview",
-    "href": "installation.html#overview",
-    "title": "Installing Living Earth LCCS",
-    "section": "",
-    "text": "Living Earth LCCS is an implementation of the FAO Land Cover Classification System (LCCS) designed to be applied to Earth Observation (EO) data. It was developed to generate land cover maps for countries such as Australia and Wales. The system takes multiple input products and combines them through a series of decision trees to produce all classes described as part of LCCS v2, with modifications where required for EO data.\nThe system is capable of ingesting products from OpenDataCube and any raster format compatible with GDAL (local or remote), with the option to expand via plugins. Existing products can be read directly, or products can be created from Analysis Ready Data (ARD) through the use of plugins and virtual products.\nThe software is open-source under an Apache 2.0 licence and hosted at the following locations:\n\nSource code: https://bitbucket.org/au-eoed/livingearth_lccs\nDocumentation: https://livingearth-lccs.readthedocs.io",
-    "crumbs": [
-      "Installation"
-    ]
-  },
-  {
-    "objectID": "installation.html#prerequisites",
-    "href": "installation.html#prerequisites",
-    "title": "Installing Living Earth LCCS",
-    "section": "Prerequisites",
-    "text": "Prerequisites\nBefore installing Living Earth LCCS, ensure the following are available on your system:\n\n\n\nRequirement\nNotes\n\n\n\n\nPython 3\nVersion 3.8 or later recommended\n\n\nGit\nTo clone the repository\n\n\nGDAL\nFor raster data handling\n\n\npip or conda\nPython package manager\n\n\n\nIf you intend to use Living Earth with the OpenDataCube (ODC) backend, a working ODC installation with a configured PostgreSQL database is also required.",
-    "crumbs": [
-      "Installation"
-    ]
-  },
-  {
-    "objectID": "installation.html#installation-options",
-    "href": "installation.html#installation-options",
-    "title": "Installing Living Earth LCCS",
-    "section": "Installation Options",
-    "text": "Installation Options\n\nOption 1 — Install from the Bitbucket Repository (Recommended)\nClone the repository from Bitbucket and install it locally using pip:\ngit clone https://bitbucket.org/au-eoed/livingearth_lccs.git\ncd livingearth_lccs\npip install .\nTo install in editable/development mode (so that local code changes are immediately reflected):\npip install -e .\n\n\nOption 2 — Install with Optional Dependencies\nDepending on your use case, you may wish to install additional optional dependency groups. Common extras include support for OpenDataCube integration or documentation building. Check the setup.py or pyproject.toml file in the repository for the full list of optional extras, then install as appropriate:\n# Example: install with ODC support\npip install \".[odc]\"\n\n# Example: install with documentation tools\npip install \".[docs]\"\n\n\nOption 3 — Install in a Conda/Virtual Environment (Recommended for Isolation)\nUsing a virtual environment keeps your system Python clean and avoids dependency conflicts.\n\ncondavenv\n\n\nconda create -n livingearth python=3.9\nconda activate livingearth\ngit clone https://bitbucket.org/au-eoed/livingearth_lccs.git\ncd livingearth_lccs\npip install .\n\n\npython -m venv livingearth_env\n# On Linux/macOS:\nsource livingearth_env/bin/activate\n# On Windows:\n# livingearth_env\\Scripts\\activate\ngit clone https://bitbucket.org/au-eoed/livingearth_lccs.git\ncd livingearth_lccs\npip install .",
-    "crumbs": [
-      "Installation"
-    ]
-  },
-  {
-    "objectID": "installation.html#opendatacube-integration",
-    "href": "installation.html#opendatacube-integration",
-    "title": "Installing Living Earth LCCS",
-    "section": "OpenDataCube Integration",
-    "text": "OpenDataCube Integration\nThe system is capable of ingesting products from OpenDataCube, which is the primary data backend for large-scale deployments such as Digital Earth Australia. If you plan to use this integration:\n\nInstall and configure the OpenDataCube following the ODC documentation.\nEnsure your ODC environment is connected to a PostgreSQL database.\nProducts can be indexed into ODC and then consumed directly by Living Earth LCCS.",
-    "crumbs": [
-      "Installation"
-    ]
-  },
-  {
-    "objectID": "installation.html#high-performance-computing-and-cloud-environments",
-    "href": "installation.html#high-performance-computing-and-cloud-environments",
-    "title": "Installing Living Earth LCCS",
-    "section": "High-Performance Computing and Cloud Environments",
-    "text": "High-Performance Computing and Cloud Environments\nLiving Earth has been optimised for high-performance computing, with tested compatibility on several national supercomputing facilities (e.g. Australia’s National Computational Infrastructure) and cloud services. For such environments, the installation steps above apply, but you should consult your HPC/cloud platform’s documentation for environment module management and job scheduling.",
-    "crumbs": [
-      "Installation"
-    ]
-  },
-  {
-    "objectID": "installation.html#verifying-the-installation",
-    "href": "installation.html#verifying-the-installation",
-    "title": "Installing Living Earth LCCS",
-    "section": "Verifying the Installation",
-    "text": "Verifying the Installation\nAfter installation, you can verify it worked by importing the package in Python:\nimport livingearth_lccs\nprint(livingearth_lccs.__version__)",
-    "crumbs": [
-      "Installation"
-    ]
-  },
-  {
-    "objectID": "installation.html#notes-and-further-resources",
-    "href": "installation.html#notes-and-further-resources",
-    "title": "Installing Living Earth LCCS",
-    "section": "Notes and Further Resources",
-    "text": "Notes and Further Resources\n\n\n\n\n\n\nNote\n\n\n\nThe readthedocs installation page (/en/latest/installation.html) may not always be publicly accessible. If you can reach it, it will contain the most authoritative and up-to-date installation instructions. The steps above are based on standard Python packaging conventions and information available from the project’s documentation and publications.\n\n\n\nPlugins: The system can be expanded via plugins, and existing products can be read directly or created from Analysis Ready Data (ARD) through the use of plugins and virtual products.\nFull documentation: https://livingearth-lccs.readthedocs.io/en/latest/\nSource code: https://bitbucket.org/au-eoed/livingearth_lccs\nLicence: Apache 2.0",
-    "crumbs": [
-      "Installation"
-    ]
-  },
-  {
-    "objectID": "change.html",
-    "href": "change.html",
-    "title": "The Global Change Taxonomy in the Context of Living Earth",
-    "section": "",
-    "text": "Understanding how and why land cover changes is just as important as mapping what land looks like at any given moment. Living Earth addresses this challenge through the Global Change Taxonomy (GCT), a standardised and globally applicable framework for describing land cover change in a consistent and evidence-based way. Published by Lucas et al. (2022, Global Change Biology, doi:10.1111/gcb.16346), the GCT was developed as a direct extension of the classification principles that underpin the Living Earth system.\nWhere Living Earth maps the state of the land surface using the FAO Land Cover Classification System (LCCS), the Global Change Taxonomy describes transitions between states — what changed, by how much, and under what pressures. Together, these two components form a coherent and interoperable framework for land monitoring from the local to the planetary scale.",
-    "crumbs": [
-      "Change framework"
-    ]
-  },
-  {
-    "objectID": "change.html#overview",
-    "href": "change.html#overview",
-    "title": "The Global Change Taxonomy in the Context of Living Earth",
-    "section": "",
-    "text": "Understanding how and why land cover changes is just as important as mapping what land looks like at any given moment. Living Earth addresses this challenge through the Global Change Taxonomy (GCT), a standardised and globally applicable framework for describing land cover change in a consistent and evidence-based way. Published by Lucas et al. (2022, Global Change Biology, doi:10.1111/gcb.16346), the GCT was developed as a direct extension of the classification principles that underpin the Living Earth system.\nWhere Living Earth maps the state of the land surface using the FAO Land Cover Classification System (LCCS), the Global Change Taxonomy describes transitions between states — what changed, by how much, and under what pressures. Together, these two components form a coherent and interoperable framework for land monitoring from the local to the planetary scale.",
-    "crumbs": [
-      "Change framework"
-    ]
-  },
-  {
-    "objectID": "change.html#why-a-new-change-taxonomy-was-needed",
-    "href": "change.html#why-a-new-change-taxonomy-was-needed",
-    "title": "The Global Change Taxonomy in the Context of Living Earth",
-    "section": "Why a New Change Taxonomy Was Needed",
-    "text": "Why a New Change Taxonomy Was Needed\nDespite decades of Earth observation and land cover research, the language used to describe land cover change has remained highly inconsistent. Terms such as degradation, deforestation, desertification or vegetation dieback are used differently across disciplines, countries and policy contexts, making it difficult to compare or aggregate findings at regional or global scales.\nThis fragmentation has real consequences: it limits the ability of scientists, land managers and policymakers to communicate clearly about the nature and causes of landscape change, and weakens collective responses to environmental challenges such as biodiversity loss, climate change and land degradation. A globally consistent and detailed change framework has therefore long been lacking.\nThe Global Change Taxonomy addresses this gap by providing a structured, openly accessible vocabulary of change that is:\n\nStandardised — each term is precisely defined in an openly accessible glossary\nEvidence-based — every change class is linked to measurable Environmental Descriptors (EDs)\nScale-independent — applicable from individual plots to entire nations\nTime-aware — change descriptions explicitly account for when and how long change events occur\nGlobally relevant — applicable to any land cover type and any region of the world",
-    "crumbs": [
-      "Change framework"
-    ]
-  },
-  {
-    "objectID": "change.html#conceptual-foundations",
-    "href": "change.html#conceptual-foundations",
-    "title": "The Global Change Taxonomy in the Context of Living Earth",
-    "section": "Conceptual Foundations",
-    "text": "Conceptual Foundations\n\nThe DPSIR Framework\nThe Global Change Taxonomy is built on the Driver–Pressure–State–Impact–Response (DPSIR) framework, originally developed by the European Environment Agency. DPSIR provides a logical structure for understanding causality in environmental change:\n\n\n\n\n\n\n\nComponent\nRole in the GCT\n\n\n\n\nDrivers\nUnderlying forces that generate pressure (e.g. rising CO₂, population growth, demand for resources)\n\n\nPressures\nDirect natural or human-induced agents of change (e.g. wildfire, drought, deforestation, overgrazing)\n\n\nState\nThe observable condition of the land surface at a given time, described using Environmental Descriptors\n\n\nImpacts\nThe measurable consequences of changes in state (e.g. vegetation loss, flooding, coral bleaching)\n\n\nResponses\nActions taken to address or mitigate change (e.g. restoration, policy interventions)\n\n\n\nIn the GCT, land cover maps produced by Living Earth LCCS provide a direct measure of state, with temporal comparisons between maps generating the evidence needed to identify impacts. Additional data sources — such as climate records, field surveys and management histories — provide evidence for the pressures behind those impacts.\n\n\nThe Role of Environmental Descriptors\nThe connection between Living Earth land cover maps and the Global Change Taxonomy runs through Environmental Descriptors (EDs) — the same measurable variables that are used to construct LCCS classifications. EDs are either continuous (e.g. canopy cover in %, water depth in metres, vegetation height in metres) or categorical (e.g. dominant lifeform, plant species codes, water state), and are assigned standardised units or pre-defined codes.\nIn the change framework, EDs serve a dual purpose:\n\nAs state indicators, they describe the land cover at any given moment and form the basis of LCCS classifications (as Overarching, Essential, and Additional EDs — OEDs, EEDs, and AEDs respectively).\nAs evidence for change, temporal comparisons of EDs between two time periods (T₁ and T₂) generate the empirical evidence needed to identify what changed (the impact) and why (the pressure).\n\nThis direct link between Living Earth’s classification inputs and the GCT’s evidence base is a key strength of the system: the same data used to produce land cover maps can be directly interrogated to characterise the nature and causes of change.",
-    "crumbs": [
-      "Change framework"
-    ]
-  },
-  {
-    "objectID": "change.html#structure-of-the-global-change-taxonomy",
-    "href": "change.html#structure-of-the-global-change-taxonomy",
-    "title": "The Global Change Taxonomy in the Context of Living Earth",
-    "section": "Structure of the Global Change Taxonomy",
-    "text": "Structure of the Global Change Taxonomy\n\nThe ‘Impact (Pressure)’ Notation\nThe core innovation of the GCT is its use of a combined ‘impact (pressure)’ notation to describe change. Rather than using a single umbrella term (e.g. “degradation”), each change class pairs:\n\nan impact — the observable consequence of change (e.g. vegetation loss (extent), flooding, coral bleaching)\nwith a pressure — the reason behind it (e.g. deforestation, excess rain, prolonged temperature increase)\n\nThis structure allows impact and pressure terms to be defined independently and then combined flexibly, so that the same impact (e.g. vegetation dieback) can be paired with many different pressures (e.g. drought, pathogens, prolonged inundation, sea level fluctuation), yielding distinct and precisely defined change classes.\n\n\nScale and Scope\nThe current version of the GCT comprises:\n\n77 impact terms covering vegetation, water, urban, agricultural and naturally bare surface domains\n144 pressure terms spanning abiotic, biotic and anthropogenic categories (71 natural, 73 human-influenced)\n246 combined ‘impact (pressure)’ classes, representing the full range of change categories currently identified as globally relevant\n\nExamples span the full breadth of land change processes:\n\n\n\n\n\n\n\nCategory\nExample GCT class\n\n\n\n\nNatural abiotic\nDeglaciation (prolonged temperature increase)\n\n\nNatural abiotic\nNet snow loss (extent) (snowmelt)\n\n\nNatural biotic\nVegetation gain (extent) (colonisation)\n\n\nNatural biotic\nVegetation species change (succession)\n\n\nAnthropogenic\nVegetation loss (extent) (deforestation)\n\n\nAnthropogenic\nCropland gain (agricultural expansion)\n\n\nAnthropogenic\nWater gain (extent) (wetland restoration and/or construction)\n\n\nAnthropogenic\nUrban sprawl (construction)\n\n\n\nAll terms and their definitions are maintained in an openly accessible online glossary at doi:10.5281/zenodo.6884999, designed to be updated as knowledge evolves.\n\n\nTypes of Change: Conversions and Modifications\nThe GCT distinguishes two fundamental modes of land cover change:\nConversions occur when a pixel transitions from one Level 3 LCCS class to another between T₁ and T₂ — for example, natural terrestrial vegetation (NTV) becoming an artificial surface (AS) through urban expansion. This represents a change in extent of both the original and replacement class.\nModifications occur when the overarching land cover class remains the same but measurable attributes within it change — for example, a decrease in canopy cover (%), a change in dominant lifeform from woody to herbaceous, or a shift in water depth or turbidity. These changes in amount or type are captured through comparisons of EEDs and AEDs within the same OED class.\nThis distinction is important because both types of change are ecologically and politically significant, yet modifications are often invisible to coarser land cover products that only track broad class changes.",
-    "crumbs": [
-      "Change framework"
-    ]
-  },
-  {
-    "objectID": "change.html#the-role-of-time",
-    "href": "change.html#the-role-of-time",
-    "title": "The Global Change Taxonomy in the Context of Living Earth",
-    "section": "The Role of Time",
-    "text": "The Role of Time\nA distinctive feature of the GCT is its explicit treatment of time as evidence for change. Four temporal dimensions are considered:\n\n\n\n\n\n\n\n\nDimension\nDefinition\nExample\n\n\n\n\nOccurrence\nDuration of the causative event or activity\nA storm lasts hours; deforestation may last weeks\n\n\nLag\nTime between the pressure and the observable impact\nPathogen infestation may cause dieback months later\n\n\nManifestation\nHow long the impact remains detectable\nFlood damage visible for days; deforestation visible for decades\n\n\nDuration\nTotal period from onset to completion or recovery\nRegrowth after fire may take decades\n\n\n\nThese temporal attributes are built into the evidence base for each GCT class, allowing users to better interpret the timing and reversibility of changes observed in satellite time-series data. For example, flash floods, crop harvesting and snow accumulation are linked to sub-daily to weekly timescales, while desertification, deglaciation and ecological succession unfold over decades to centuries.",
-    "crumbs": [
-      "Change framework"
-    ]
-  },
-  {
-    "objectID": "change.html#applying-the-global-change-taxonomy-with-living-earth",
-    "href": "change.html#applying-the-global-change-taxonomy-with-living-earth",
-    "title": "The Global Change Taxonomy in the Context of Living Earth",
-    "section": "Applying the Global Change Taxonomy with Living Earth",
-    "text": "Applying the Global Change Taxonomy with Living Earth\nIn practice, using the GCT in the context of Living Earth involves the following steps:\n\nGenerate multi-temporal land cover maps using Living Earth LCCS for two or more time periods (T₁ and T₂).\nCompare OED classes between periods to identify broad conversions (between-class changes) or the absence of class change.\nExamine EED and AED layers at T₁ and T₂ to characterise detailed modifications (within-class changes in amounts or types of descriptors).\nIdentify the impact — the observable consequence of change — using the direction and magnitude of ED changes.\nGather evidence for the pressure — typically from ancillary data sources such as climate records, fire histories, management plans, or biodiversity surveys.\nAssign a GCT class using the ‘impact (pressure)’ notation, consulting the glossary to ensure consistent terminology.\n\nThis workflow can be applied at any spatial scale and using any combination of ground observations, Earth observation data, or predictive model outputs.",
-    "crumbs": [
-      "Change framework"
-    ]
-  },
-  {
-    "objectID": "change.html#supporting-global-environmental-policy",
-    "href": "change.html#supporting-global-environmental-policy",
-    "title": "The Global Change Taxonomy in the Context of Living Earth",
-    "section": "Supporting Global Environmental Policy",
-    "text": "Supporting Global Environmental Policy\nThe Global Change Taxonomy was explicitly designed to serve the needs of national and international policy and reporting frameworks. By providing consistent and standardised descriptions of land change, it supports:\n\nUN Sustainable Development Goals (SDGs) — particularly SDG 15 (Life on Land) and SDG 6 (Clean Water)\nIPBES assessments of biodiversity and ecosystem services\nLand degradation neutrality targets under the UNCCD\nNational greenhouse gas inventories and REDD+ reporting for forests\nEcosystem restoration monitoring under the UN Decade on Ecosystem Restoration (2021–2030)\n\nThe taxonomy also provides detailed and standardised language for describing processes that are currently described inconsistently in the literature and policy, including land degradation, desertification, and ecosystem recovery — replacing broad umbrella terms with precise, evidence-based combinations of impacts and pressures.",
-    "crumbs": [
-      "Change framework"
-    ]
-  },
-  {
-    "objectID": "change.html#key-reference",
-    "href": "change.html#key-reference",
-    "title": "The Global Change Taxonomy in the Context of Living Earth",
-    "section": "Key Reference",
-    "text": "Key Reference\nLucas, R.M., German, S., Metternicht, G., Schmidt, R.K., Owers, C.J., Prober, S.M., et al. (2022). A globally relevant change taxonomy and evidence-based change framework for land monitoring. Global Change Biology, 28(21), 6293–6317. https://doi.org/10.1111/gcb.16346\n\n\n\n\n\n\nNote\n\n\n\nThe Global Change Taxonomy glossary, containing all impact and pressure term definitions, is openly accessible at https://doi.org/10.5281/zenodo.6884999 and is designed to be updated over time through an ongoing peer-review process.",
-    "crumbs": [
-      "Change framework"
     ]
   },
   {
@@ -690,47 +524,67 @@
     ]
   },
   {
-    "objectID": "workshops/gistam2026.html",
-    "href": "workshops/gistam2026.html",
-    "title": "GISTAM 2026",
+    "objectID": "workshops/earsel2026.html",
+    "href": "workshops/earsel2026.html",
+    "title": "EARSeL 2026",
     "section": "",
-    "text": "https://gistam.scitevents.org/Home.aspx",
+    "text": "https://athens2026.earsel.org",
     "crumbs": [
       "Workshops",
-      "GISTAM 2026"
+      "EARSeL 2026"
     ]
   },
   {
-    "objectID": "workshops/gistam2026.html#welcome",
-    "href": "workshops/gistam2026.html#welcome",
-    "title": "GISTAM 2026",
+    "objectID": "workshops/earsel2026.html#welcome",
+    "href": "workshops/earsel2026.html#welcome",
+    "title": "EARSeL 2026",
     "section": "",
-    "text": "https://gistam.scitevents.org/Home.aspx",
+    "text": "https://athens2026.earsel.org",
     "crumbs": [
       "Workshops",
-      "GISTAM 2026"
+      "EARSeL 2026"
     ]
   },
   {
-    "objectID": "tutorials/tuto1.html",
-    "href": "tutorials/tuto1.html",
-    "title": "How to create overaching ED?",
+    "objectID": "documentation/index.html",
+    "href": "documentation/index.html",
+    "title": "Documentation",
     "section": "",
     "text": "blalbla",
     "crumbs": [
-      "Tutorials",
-      "How to create overaching ED?"
+      "Documentation"
     ]
   },
   {
-    "objectID": "tutorials/tuto1.html#welcome",
-    "href": "tutorials/tuto1.html#welcome",
-    "title": "How to create overaching ED?",
+    "objectID": "documentation/index.html#welcome",
+    "href": "documentation/index.html#welcome",
+    "title": "Documentation",
     "section": "",
     "text": "blalbla",
     "crumbs": [
-      "Tutorials",
-      "How to create overaching ED?"
+      "Documentation"
+    ]
+  },
+  {
+    "objectID": "documentation/data_ingestion.html",
+    "href": "documentation/data_ingestion.html",
+    "title": "Data ingestion",
+    "section": "",
+    "text": "blalbla",
+    "crumbs": [
+      "Documentation",
+      "Data ingestion"
+    ]
+  },
+  {
+    "objectID": "documentation/data_ingestion.html#welcome",
+    "href": "documentation/data_ingestion.html#welcome",
+    "title": "Data ingestion",
+    "section": "",
+    "text": "blalbla",
+    "crumbs": [
+      "Documentation",
+      "Data ingestion"
     ]
   },
   {
@@ -756,47 +610,193 @@
     ]
   },
   {
-    "objectID": "documentation/variables.html",
-    "href": "documentation/variables.html",
-    "title": "Variables",
+    "objectID": "change.html",
+    "href": "change.html",
+    "title": "The Global Change Taxonomy in the Context of Living Earth",
     "section": "",
-    "text": "blalbla",
+    "text": "Understanding how and why land cover changes is just as important as mapping what land looks like at any given moment. Living Earth addresses this challenge through the Global Change Taxonomy (GCT), a standardised and globally applicable framework for describing land cover change in a consistent and evidence-based way. Published by Lucas et al. (2022, Global Change Biology, doi:10.1111/gcb.16346), the GCT was developed as a direct extension of the classification principles that underpin the Living Earth system.\nWhere Living Earth maps the state of the land surface using the FAO Land Cover Classification System (LCCS), the Global Change Taxonomy describes transitions between states — what changed, by how much, and under what pressures. Together, these two components form a coherent and interoperable framework for land monitoring from the local to the planetary scale.",
     "crumbs": [
-      "Documentation",
-      "Variables"
+      "Change framework"
     ]
   },
   {
-    "objectID": "documentation/variables.html#welcome",
-    "href": "documentation/variables.html#welcome",
-    "title": "Variables",
+    "objectID": "change.html#overview",
+    "href": "change.html#overview",
+    "title": "The Global Change Taxonomy in the Context of Living Earth",
     "section": "",
-    "text": "blalbla",
+    "text": "Understanding how and why land cover changes is just as important as mapping what land looks like at any given moment. Living Earth addresses this challenge through the Global Change Taxonomy (GCT), a standardised and globally applicable framework for describing land cover change in a consistent and evidence-based way. Published by Lucas et al. (2022, Global Change Biology, doi:10.1111/gcb.16346), the GCT was developed as a direct extension of the classification principles that underpin the Living Earth system.\nWhere Living Earth maps the state of the land surface using the FAO Land Cover Classification System (LCCS), the Global Change Taxonomy describes transitions between states — what changed, by how much, and under what pressures. Together, these two components form a coherent and interoperable framework for land monitoring from the local to the planetary scale.",
     "crumbs": [
-      "Documentation",
-      "Variables"
+      "Change framework"
     ]
   },
   {
-    "objectID": "documentation/data_ingestion.html",
-    "href": "documentation/data_ingestion.html",
-    "title": "Data ingestion",
-    "section": "",
-    "text": "blalbla",
+    "objectID": "change.html#why-a-new-change-taxonomy-was-needed",
+    "href": "change.html#why-a-new-change-taxonomy-was-needed",
+    "title": "The Global Change Taxonomy in the Context of Living Earth",
+    "section": "Why a New Change Taxonomy Was Needed",
+    "text": "Why a New Change Taxonomy Was Needed\nDespite decades of Earth observation and land cover research, the language used to describe land cover change has remained highly inconsistent. Terms such as degradation, deforestation, desertification or vegetation dieback are used differently across disciplines, countries and policy contexts, making it difficult to compare or aggregate findings at regional or global scales.\nThis fragmentation has real consequences: it limits the ability of scientists, land managers and policymakers to communicate clearly about the nature and causes of landscape change, and weakens collective responses to environmental challenges such as biodiversity loss, climate change and land degradation. A globally consistent and detailed change framework has therefore long been lacking.\nThe Global Change Taxonomy addresses this gap by providing a structured, openly accessible vocabulary of change that is:\n\nStandardised — each term is precisely defined in an openly accessible glossary\nEvidence-based — every change class is linked to measurable Environmental Descriptors (EDs)\nScale-independent — applicable from individual plots to entire nations\nTime-aware — change descriptions explicitly account for when and how long change events occur\nGlobally relevant — applicable to any land cover type and any region of the world",
     "crumbs": [
-      "Documentation",
-      "Data ingestion"
+      "Change framework"
     ]
   },
   {
-    "objectID": "documentation/data_ingestion.html#welcome",
-    "href": "documentation/data_ingestion.html#welcome",
-    "title": "Data ingestion",
+    "objectID": "change.html#conceptual-foundations",
+    "href": "change.html#conceptual-foundations",
+    "title": "The Global Change Taxonomy in the Context of Living Earth",
+    "section": "Conceptual Foundations",
+    "text": "Conceptual Foundations\n\nThe DPSIR Framework\nThe Global Change Taxonomy is built on the Driver–Pressure–State–Impact–Response (DPSIR) framework, originally developed by the European Environment Agency. DPSIR provides a logical structure for understanding causality in environmental change:\n\n\n\n\n\n\n\nComponent\nRole in the GCT\n\n\n\n\nDrivers\nUnderlying forces that generate pressure (e.g. rising CO₂, population growth, demand for resources)\n\n\nPressures\nDirect natural or human-induced agents of change (e.g. wildfire, drought, deforestation, overgrazing)\n\n\nState\nThe observable condition of the land surface at a given time, described using Environmental Descriptors\n\n\nImpacts\nThe measurable consequences of changes in state (e.g. vegetation loss, flooding, coral bleaching)\n\n\nResponses\nActions taken to address or mitigate change (e.g. restoration, policy interventions)\n\n\n\nIn the GCT, land cover maps produced by Living Earth LCCS provide a direct measure of state, with temporal comparisons between maps generating the evidence needed to identify impacts. Additional data sources — such as climate records, field surveys and management histories — provide evidence for the pressures behind those impacts.\n\n\nThe Role of Environmental Descriptors\nThe connection between Living Earth land cover maps and the Global Change Taxonomy runs through Environmental Descriptors (EDs) — the same measurable variables that are used to construct LCCS classifications. EDs are either continuous (e.g. canopy cover in %, water depth in metres, vegetation height in metres) or categorical (e.g. dominant lifeform, plant species codes, water state), and are assigned standardised units or pre-defined codes.\nIn the change framework, EDs serve a dual purpose:\n\nAs state indicators, they describe the land cover at any given moment and form the basis of LCCS classifications (as Overarching, Essential, and Additional EDs — OEDs, EEDs, and AEDs respectively).\nAs evidence for change, temporal comparisons of EDs between two time periods (T₁ and T₂) generate the empirical evidence needed to identify what changed (the impact) and why (the pressure).\n\nThis direct link between Living Earth’s classification inputs and the GCT’s evidence base is a key strength of the system: the same data used to produce land cover maps can be directly interrogated to characterise the nature and causes of change.",
+    "crumbs": [
+      "Change framework"
+    ]
+  },
+  {
+    "objectID": "change.html#structure-of-the-global-change-taxonomy",
+    "href": "change.html#structure-of-the-global-change-taxonomy",
+    "title": "The Global Change Taxonomy in the Context of Living Earth",
+    "section": "Structure of the Global Change Taxonomy",
+    "text": "Structure of the Global Change Taxonomy\n\nThe ‘Impact (Pressure)’ Notation\nThe core innovation of the GCT is its use of a combined ‘impact (pressure)’ notation to describe change. Rather than using a single umbrella term (e.g. “degradation”), each change class pairs:\n\nan impact — the observable consequence of change (e.g. vegetation loss (extent), flooding, coral bleaching)\nwith a pressure — the reason behind it (e.g. deforestation, excess rain, prolonged temperature increase)\n\nThis structure allows impact and pressure terms to be defined independently and then combined flexibly, so that the same impact (e.g. vegetation dieback) can be paired with many different pressures (e.g. drought, pathogens, prolonged inundation, sea level fluctuation), yielding distinct and precisely defined change classes.\n\n\nScale and Scope\nThe current version of the GCT comprises:\n\n77 impact terms covering vegetation, water, urban, agricultural and naturally bare surface domains\n144 pressure terms spanning abiotic, biotic and anthropogenic categories (71 natural, 73 human-influenced)\n246 combined ‘impact (pressure)’ classes, representing the full range of change categories currently identified as globally relevant\n\nExamples span the full breadth of land change processes:\n\n\n\n\n\n\n\nCategory\nExample GCT class\n\n\n\n\nNatural abiotic\nDeglaciation (prolonged temperature increase)\n\n\nNatural abiotic\nNet snow loss (extent) (snowmelt)\n\n\nNatural biotic\nVegetation gain (extent) (colonisation)\n\n\nNatural biotic\nVegetation species change (succession)\n\n\nAnthropogenic\nVegetation loss (extent) (deforestation)\n\n\nAnthropogenic\nCropland gain (agricultural expansion)\n\n\nAnthropogenic\nWater gain (extent) (wetland restoration and/or construction)\n\n\nAnthropogenic\nUrban sprawl (construction)\n\n\n\nAll terms and their definitions are maintained in an openly accessible online glossary at doi:10.5281/zenodo.6884999, designed to be updated as knowledge evolves.\n\n\nTypes of Change: Conversions and Modifications\nThe GCT distinguishes two fundamental modes of land cover change:\nConversions occur when a pixel transitions from one Level 3 LCCS class to another between T₁ and T₂ — for example, natural terrestrial vegetation (NTV) becoming an artificial surface (AS) through urban expansion. This represents a change in extent of both the original and replacement class.\nModifications occur when the overarching land cover class remains the same but measurable attributes within it change — for example, a decrease in canopy cover (%), a change in dominant lifeform from woody to herbaceous, or a shift in water depth or turbidity. These changes in amount or type are captured through comparisons of EEDs and AEDs within the same OED class.\nThis distinction is important because both types of change are ecologically and politically significant, yet modifications are often invisible to coarser land cover products that only track broad class changes.",
+    "crumbs": [
+      "Change framework"
+    ]
+  },
+  {
+    "objectID": "change.html#the-role-of-time",
+    "href": "change.html#the-role-of-time",
+    "title": "The Global Change Taxonomy in the Context of Living Earth",
+    "section": "The Role of Time",
+    "text": "The Role of Time\nA distinctive feature of the GCT is its explicit treatment of time as evidence for change. Four temporal dimensions are considered:\n\n\n\n\n\n\n\n\nDimension\nDefinition\nExample\n\n\n\n\nOccurrence\nDuration of the causative event or activity\nA storm lasts hours; deforestation may last weeks\n\n\nLag\nTime between the pressure and the observable impact\nPathogen infestation may cause dieback months later\n\n\nManifestation\nHow long the impact remains detectable\nFlood damage visible for days; deforestation visible for decades\n\n\nDuration\nTotal period from onset to completion or recovery\nRegrowth after fire may take decades\n\n\n\nThese temporal attributes are built into the evidence base for each GCT class, allowing users to better interpret the timing and reversibility of changes observed in satellite time-series data. For example, flash floods, crop harvesting and snow accumulation are linked to sub-daily to weekly timescales, while desertification, deglaciation and ecological succession unfold over decades to centuries.",
+    "crumbs": [
+      "Change framework"
+    ]
+  },
+  {
+    "objectID": "change.html#applying-the-global-change-taxonomy-with-living-earth",
+    "href": "change.html#applying-the-global-change-taxonomy-with-living-earth",
+    "title": "The Global Change Taxonomy in the Context of Living Earth",
+    "section": "Applying the Global Change Taxonomy with Living Earth",
+    "text": "Applying the Global Change Taxonomy with Living Earth\nIn practice, using the GCT in the context of Living Earth involves the following steps:\n\nGenerate multi-temporal land cover maps using Living Earth LCCS for two or more time periods (T₁ and T₂).\nCompare OED classes between periods to identify broad conversions (between-class changes) or the absence of class change.\nExamine EED and AED layers at T₁ and T₂ to characterise detailed modifications (within-class changes in amounts or types of descriptors).\nIdentify the impact — the observable consequence of change — using the direction and magnitude of ED changes.\nGather evidence for the pressure — typically from ancillary data sources such as climate records, fire histories, management plans, or biodiversity surveys.\nAssign a GCT class using the ‘impact (pressure)’ notation, consulting the glossary to ensure consistent terminology.\n\nThis workflow can be applied at any spatial scale and using any combination of ground observations, Earth observation data, or predictive model outputs.",
+    "crumbs": [
+      "Change framework"
+    ]
+  },
+  {
+    "objectID": "change.html#supporting-global-environmental-policy",
+    "href": "change.html#supporting-global-environmental-policy",
+    "title": "The Global Change Taxonomy in the Context of Living Earth",
+    "section": "Supporting Global Environmental Policy",
+    "text": "Supporting Global Environmental Policy\nThe Global Change Taxonomy was explicitly designed to serve the needs of national and international policy and reporting frameworks. By providing consistent and standardised descriptions of land change, it supports:\n\nUN Sustainable Development Goals (SDGs) — particularly SDG 15 (Life on Land) and SDG 6 (Clean Water)\nIPBES assessments of biodiversity and ecosystem services\nLand degradation neutrality targets under the UNCCD\nNational greenhouse gas inventories and REDD+ reporting for forests\nEcosystem restoration monitoring under the UN Decade on Ecosystem Restoration (2021–2030)\n\nThe taxonomy also provides detailed and standardised language for describing processes that are currently described inconsistently in the literature and policy, including land degradation, desertification, and ecosystem recovery — replacing broad umbrella terms with precise, evidence-based combinations of impacts and pressures.",
+    "crumbs": [
+      "Change framework"
+    ]
+  },
+  {
+    "objectID": "change.html#key-reference",
+    "href": "change.html#key-reference",
+    "title": "The Global Change Taxonomy in the Context of Living Earth",
+    "section": "Key Reference",
+    "text": "Key Reference\nLucas, R.M., German, S., Metternicht, G., Schmidt, R.K., Owers, C.J., Prober, S.M., et al. (2022). A globally relevant change taxonomy and evidence-based change framework for land monitoring. Global Change Biology, 28(21), 6293–6317. https://doi.org/10.1111/gcb.16346\n\n\n\n\n\n\nNote\n\n\n\nThe Global Change Taxonomy glossary, containing all impact and pressure term definitions, is openly accessible at https://doi.org/10.5281/zenodo.6884999 and is designed to be updated over time through an ongoing peer-review process.",
+    "crumbs": [
+      "Change framework"
+    ]
+  },
+  {
+    "objectID": "tutorials/index.html",
+    "href": "tutorials/index.html",
+    "title": "Tutorials",
     "section": "",
     "text": "blalbla",
     "crumbs": [
-      "Documentation",
-      "Data ingestion"
+      "Tutorials"
+    ]
+  },
+  {
+    "objectID": "tutorials/index.html#welcome",
+    "href": "tutorials/index.html#welcome",
+    "title": "Tutorials",
+    "section": "",
+    "text": "blalbla",
+    "crumbs": [
+      "Tutorials"
+    ]
+  },
+  {
+    "objectID": "installation.html",
+    "href": "installation.html",
+    "title": "Installing Living Earth LCCS",
+    "section": "",
+    "text": "Living Earth LCCS is an implementation of the FAO Land Cover Classification System (LCCS) designed to be applied to Earth Observation (EO) data. It was developed to generate land cover maps for countries such as Australia and Wales. The system takes multiple input products and combines them through a series of decision trees to produce all classes described as part of LCCS v2, with modifications where required for EO data.\nThe system is capable of ingesting products from OpenDataCube and any raster format compatible with GDAL (local or remote), with the option to expand via plugins. Existing products can be read directly, or products can be created from Analysis Ready Data (ARD) through the use of plugins and virtual products.\nThe software is open-source under an Apache 2.0 licence and hosted at the following locations:\n\nSource code: https://bitbucket.org/au-eoed/livingearth_lccs\nDocumentation: https://livingearth-lccs.readthedocs.io",
+    "crumbs": [
+      "Installation"
+    ]
+  },
+  {
+    "objectID": "installation.html#overview",
+    "href": "installation.html#overview",
+    "title": "Installing Living Earth LCCS",
+    "section": "",
+    "text": "Living Earth LCCS is an implementation of the FAO Land Cover Classification System (LCCS) designed to be applied to Earth Observation (EO) data. It was developed to generate land cover maps for countries such as Australia and Wales. The system takes multiple input products and combines them through a series of decision trees to produce all classes described as part of LCCS v2, with modifications where required for EO data.\nThe system is capable of ingesting products from OpenDataCube and any raster format compatible with GDAL (local or remote), with the option to expand via plugins. Existing products can be read directly, or products can be created from Analysis Ready Data (ARD) through the use of plugins and virtual products.\nThe software is open-source under an Apache 2.0 licence and hosted at the following locations:\n\nSource code: https://bitbucket.org/au-eoed/livingearth_lccs\nDocumentation: https://livingearth-lccs.readthedocs.io",
+    "crumbs": [
+      "Installation"
+    ]
+  },
+  {
+    "objectID": "installation.html#prerequisites",
+    "href": "installation.html#prerequisites",
+    "title": "Installing Living Earth LCCS",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nBefore installing Living Earth LCCS, ensure the following are available on your system:\n\n\n\nRequirement\nNotes\n\n\n\n\nPython 3\nVersion 3.8 or later recommended\n\n\nGit\nTo clone the repository\n\n\nGDAL\nFor raster data handling\n\n\npip or conda\nPython package manager\n\n\n\nIf you intend to use Living Earth with the OpenDataCube (ODC) backend, a working ODC installation with a configured PostgreSQL database is also required.",
+    "crumbs": [
+      "Installation"
+    ]
+  },
+  {
+    "objectID": "installation.html#installation-options",
+    "href": "installation.html#installation-options",
+    "title": "Installing Living Earth LCCS",
+    "section": "Installation Options",
+    "text": "Installation Options\n\nOption 1 — Install from the Bitbucket Repository (Recommended)\nClone the repository from Bitbucket and install it locally using pip:\ngit clone https://bitbucket.org/au-eoed/livingearth_lccs.git\ncd livingearth_lccs\npip install .\nTo install in editable/development mode (so that local code changes are immediately reflected):\npip install -e .\n\n\nOption 2 — Install with Optional Dependencies\nDepending on your use case, you may wish to install additional optional dependency groups. Common extras include support for OpenDataCube integration or documentation building. Check the setup.py or pyproject.toml file in the repository for the full list of optional extras, then install as appropriate:\n# Example: install with ODC support\npip install \".[odc]\"\n\n# Example: install with documentation tools\npip install \".[docs]\"\n\n\nOption 3 — Install in a Conda/Virtual Environment (Recommended for Isolation)\nUsing a virtual environment keeps your system Python clean and avoids dependency conflicts.\n\ncondavenv\n\n\nconda create -n livingearth python=3.9\nconda activate livingearth\ngit clone https://bitbucket.org/au-eoed/livingearth_lccs.git\ncd livingearth_lccs\npip install .\n\n\npython -m venv livingearth_env\n# On Linux/macOS:\nsource livingearth_env/bin/activate\n# On Windows:\n# livingearth_env\\Scripts\\activate\ngit clone https://bitbucket.org/au-eoed/livingearth_lccs.git\ncd livingearth_lccs\npip install .",
+    "crumbs": [
+      "Installation"
+    ]
+  },
+  {
+    "objectID": "installation.html#opendatacube-integration",
+    "href": "installation.html#opendatacube-integration",
+    "title": "Installing Living Earth LCCS",
+    "section": "OpenDataCube Integration",
+    "text": "OpenDataCube Integration\nThe system is capable of ingesting products from OpenDataCube, which is the primary data backend for large-scale deployments such as Digital Earth Australia. If you plan to use this integration:\n\nInstall and configure the OpenDataCube following the ODC documentation.\nEnsure your ODC environment is connected to a PostgreSQL database.\nProducts can be indexed into ODC and then consumed directly by Living Earth LCCS.",
+    "crumbs": [
+      "Installation"
+    ]
+  },
+  {
+    "objectID": "installation.html#high-performance-computing-and-cloud-environments",
+    "href": "installation.html#high-performance-computing-and-cloud-environments",
+    "title": "Installing Living Earth LCCS",
+    "section": "High-Performance Computing and Cloud Environments",
+    "text": "High-Performance Computing and Cloud Environments\nLiving Earth has been optimised for high-performance computing, with tested compatibility on several national supercomputing facilities (e.g. Australia’s National Computational Infrastructure) and cloud services. For such environments, the installation steps above apply, but you should consult your HPC/cloud platform’s documentation for environment module management and job scheduling.",
+    "crumbs": [
+      "Installation"
+    ]
+  },
+  {
+    "objectID": "installation.html#verifying-the-installation",
+    "href": "installation.html#verifying-the-installation",
+    "title": "Installing Living Earth LCCS",
+    "section": "Verifying the Installation",
+    "text": "Verifying the Installation\nAfter installation, you can verify it worked by importing the package in Python:\nimport livingearth_lccs\nprint(livingearth_lccs.__version__)",
+    "crumbs": [
+      "Installation"
+    ]
+  },
+  {
+    "objectID": "installation.html#notes-and-further-resources",
+    "href": "installation.html#notes-and-further-resources",
+    "title": "Installing Living Earth LCCS",
+    "section": "Notes and Further Resources",
+    "text": "Notes and Further Resources\n\n\n\n\n\n\nNote\n\n\n\nThe readthedocs installation page (/en/latest/installation.html) may not always be publicly accessible. If you can reach it, it will contain the most authoritative and up-to-date installation instructions. The steps above are based on standard Python packaging conventions and information available from the project’s documentation and publications.\n\n\n\nPlugins: The system can be expanded via plugins, and existing products can be read directly or created from Analysis Ready Data (ARD) through the use of plugins and virtual products.\nFull documentation: https://livingearth-lccs.readthedocs.io/en/latest/\nSource code: https://bitbucket.org/au-eoed/livingearth_lccs\nLicence: Apache 2.0",
+    "crumbs": [
+      "Installation"
     ]
   }
 ]
