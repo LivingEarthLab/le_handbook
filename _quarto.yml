@@ -11,6 +11,7 @@ website:
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
     left: "&copy; CC-BY Living Earth Lab, 2026"
+    background: "#23557B"
     
   sidebar:
     logo: "images/living-earth-logo.svg"
