@@ -1,306 +1,82 @@
 [
   {
-    "objectID": "acknowledgements.html",
-    "href": "acknowledgements.html",
-    "title": "Acknowledgements",
+    "objectID": "installation.html",
+    "href": "installation.html",
+    "title": "Installing Living Earth LCCS",
     "section": "",
-    "text": "List of funding sources that supported the work.",
+    "text": "Living Earth LCCS is an implementation of the FAO Land Cover Classification System (LCCS) designed to be applied to Earth Observation (EO) data. It was developed to generate land cover maps for countries such as Australia and Wales. The system takes multiple input products and combines them through a series of decision trees to produce all classes described as part of LCCS v2, with modifications where required for EO data.\nThe system is capable of ingesting products from OpenDataCube and any raster format compatible with GDAL (local or remote), with the option to expand via plugins. Existing products can be read directly, or products can be created from Analysis Ready Data (ARD) through the use of plugins and virtual products.\nThe software is open-source under an Apache 2.0 licence and hosted at the following locations:\n\nSource code: https://bitbucket.org/au-eoed/livingearth_lccs\nDocumentation: https://livingearth-lccs.readthedocs.io",
     "crumbs": [
-      "Acknowledgements"
+      "Installation"
     ]
   },
   {
-    "objectID": "acknowledgements.html#funding-sources",
-    "href": "acknowledgements.html#funding-sources",
-    "title": "Acknowledgements",
+    "objectID": "installation.html#overview",
+    "href": "installation.html#overview",
+    "title": "Installing Living Earth LCCS",
     "section": "",
-    "text": "List of funding sources that supported the work.",
+    "text": "Living Earth LCCS is an implementation of the FAO Land Cover Classification System (LCCS) designed to be applied to Earth Observation (EO) data. It was developed to generate land cover maps for countries such as Australia and Wales. The system takes multiple input products and combines them through a series of decision trees to produce all classes described as part of LCCS v2, with modifications where required for EO data.\nThe system is capable of ingesting products from OpenDataCube and any raster format compatible with GDAL (local or remote), with the option to expand via plugins. Existing products can be read directly, or products can be created from Analysis Ready Data (ARD) through the use of plugins and virtual products.\nThe software is open-source under an Apache 2.0 licence and hosted at the following locations:\n\nSource code: https://bitbucket.org/au-eoed/livingearth_lccs\nDocumentation: https://livingearth-lccs.readthedocs.io",
     "crumbs": [
-      "Acknowledgements"
+      "Installation"
     ]
   },
   {
-    "objectID": "acknowledgements.html#contributions",
-    "href": "acknowledgements.html#contributions",
-    "title": "Acknowledgements",
-    "section": "Contributions",
-    "text": "Contributions\nblacla",
+    "objectID": "installation.html#prerequisites",
+    "href": "installation.html#prerequisites",
+    "title": "Installing Living Earth LCCS",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nBefore installing Living Earth LCCS, ensure the following are available on your system:\n\n\n\nRequirement\nNotes\n\n\n\n\nPython 3\nVersion 3.8 or later recommended\n\n\nGit\nTo clone the repository\n\n\nGDAL\nFor raster data handling\n\n\npip or conda\nPython package manager\n\n\n\nIf you intend to use Living Earth with the OpenDataCube (ODC) backend, a working ODC installation with a configured PostgreSQL database is also required.",
     "crumbs": [
-      "Acknowledgements"
+      "Installation"
     ]
   },
   {
-    "objectID": "acknowledgements.html#publications-using-living-earth",
-    "href": "acknowledgements.html#publications-using-living-earth",
-    "title": "Acknowledgements",
-    "section": "Publications using Living Earth",
-    "text": "Publications using Living Earth\nThis is a 1-hour tutorial that can be used to teach or as self-paced learning.",
+    "objectID": "installation.html#installation-options",
+    "href": "installation.html#installation-options",
+    "title": "Installing Living Earth LCCS",
+    "section": "Installation Options",
+    "text": "Installation Options\n\nOption 1 — Install from the Bitbucket Repository (Recommended)\nClone the repository from Bitbucket and install it locally using pip:\ngit clone https://bitbucket.org/au-eoed/livingearth_lccs.git\ncd livingearth_lccs\npip install .\nTo install in editable/development mode (so that local code changes are immediately reflected):\npip install -e .\n\n\nOption 2 — Install with Optional Dependencies\nDepending on your use case, you may wish to install additional optional dependency groups. Common extras include support for OpenDataCube integration or documentation building. Check the setup.py or pyproject.toml file in the repository for the full list of optional extras, then install as appropriate:\n# Example: install with ODC support\npip install \".[odc]\"\n\n# Example: install with documentation tools\npip install \".[docs]\"\n\n\nOption 3 — Install in a Conda/Virtual Environment (Recommended for Isolation)\nUsing a virtual environment keeps your system Python clean and avoids dependency conflicts.\n\ncondavenv\n\n\nconda create -n livingearth python=3.9\nconda activate livingearth\ngit clone https://bitbucket.org/au-eoed/livingearth_lccs.git\ncd livingearth_lccs\npip install .\n\n\npython -m venv livingearth_env\n# On Linux/macOS:\nsource livingearth_env/bin/activate\n# On Windows:\n# livingearth_env\\Scripts\\activate\ngit clone https://bitbucket.org/au-eoed/livingearth_lccs.git\ncd livingearth_lccs\npip install .",
     "crumbs": [
-      "Acknowledgements"
+      "Installation"
     ]
   },
   {
-    "objectID": "tutorials/tuto1.html",
-    "href": "tutorials/tuto1.html",
-    "title": "How to create overaching ED?",
-    "section": "",
-    "text": "blalbla",
+    "objectID": "installation.html#opendatacube-integration",
+    "href": "installation.html#opendatacube-integration",
+    "title": "Installing Living Earth LCCS",
+    "section": "OpenDataCube Integration",
+    "text": "OpenDataCube Integration\nThe system is capable of ingesting products from OpenDataCube, which is the primary data backend for large-scale deployments such as Digital Earth Australia. If you plan to use this integration:\n\nInstall and configure the OpenDataCube following the ODC documentation.\nEnsure your ODC environment is connected to a PostgreSQL database.\nProducts can be indexed into ODC and then consumed directly by Living Earth LCCS.",
     "crumbs": [
-      "Tutorials",
-      "How to create overaching ED?"
+      "Installation"
     ]
   },
   {
-    "objectID": "tutorials/tuto1.html#welcome",
-    "href": "tutorials/tuto1.html#welcome",
-    "title": "How to create overaching ED?",
-    "section": "",
-    "text": "blalbla",
+    "objectID": "installation.html#high-performance-computing-and-cloud-environments",
+    "href": "installation.html#high-performance-computing-and-cloud-environments",
+    "title": "Installing Living Earth LCCS",
+    "section": "High-Performance Computing and Cloud Environments",
+    "text": "High-Performance Computing and Cloud Environments\nLiving Earth has been optimised for high-performance computing, with tested compatibility on several national supercomputing facilities (e.g. Australia’s National Computational Infrastructure) and cloud services. For such environments, the installation steps above apply, but you should consult your HPC/cloud platform’s documentation for environment module management and job scheduling.",
     "crumbs": [
-      "Tutorials",
-      "How to create overaching ED?"
+      "Installation"
     ]
   },
   {
-    "objectID": "CODE_OF_CONDUCT.html",
-    "href": "CODE_OF_CONDUCT.html",
-    "title": "Contributor Covenant Code of Conduct",
-    "section": "",
-    "text": "We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.\n\n\n\nExamples of behavior that contributes to a positive environment for our community include:\n\nDemonstrating empathy and kindness toward other people\nBeing respectful of differing opinions, viewpoints, and experiences\nGiving and gracefully accepting constructive feedback\nAccepting responsibility and apologizing to those affected by our mistakes, and learning from the experience\nFocusing on what is best not just for us as individuals, but for the overall community\n\nExamples of unacceptable behavior include:\n\nThe use of sexualized language or imagery, and sexual attention or advances of any kind\nTrolling, insulting or derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information, such as a physical or email address, without their explicit permission\nOther conduct which could reasonably be considered inappropriate in a professional setting\n\n\n\n\nCommunity leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.\nCommunity leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.\n\n\n\nThis Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.\n\n\n\nInstances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at 345776. All complaints will be reviewed and investigated promptly and fairly.\nAll community leaders are obligated to respect the privacy and security of the reporter of any incident.\n\n\n\nCommunity leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:\n\n\nCommunity Impact: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.\nConsequence: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.\n\n\n\nCommunity Impact: A violation through a single incident or series of actions.\nConsequence: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.\n\n\n\nCommunity Impact: A serious violation of community standards, including sustained inappropriate behavior.\nConsequence: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.\n\n\n\nCommunity Impact: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.\nConsequence: A permanent ban from any sort of public interaction within the community.\n\n\n\n\nThis Code of Conduct is adapted from the Contributor Covenant, version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.\nCommunity Impact Guidelines were inspired by Mozilla’s code of conduct enforcement ladder.\nFor answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations."
-  },
-  {
-    "objectID": "CODE_OF_CONDUCT.html#our-pledge",
-    "href": "CODE_OF_CONDUCT.html#our-pledge",
-    "title": "Contributor Covenant Code of Conduct",
-    "section": "",
-    "text": "We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community."
-  },
-  {
-    "objectID": "CODE_OF_CONDUCT.html#our-standards",
-    "href": "CODE_OF_CONDUCT.html#our-standards",
-    "title": "Contributor Covenant Code of Conduct",
-    "section": "",
-    "text": "Examples of behavior that contributes to a positive environment for our community include:\n\nDemonstrating empathy and kindness toward other people\nBeing respectful of differing opinions, viewpoints, and experiences\nGiving and gracefully accepting constructive feedback\nAccepting responsibility and apologizing to those affected by our mistakes, and learning from the experience\nFocusing on what is best not just for us as individuals, but for the overall community\n\nExamples of unacceptable behavior include:\n\nThe use of sexualized language or imagery, and sexual attention or advances of any kind\nTrolling, insulting or derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information, such as a physical or email address, without their explicit permission\nOther conduct which could reasonably be considered inappropriate in a professional setting"
-  },
-  {
-    "objectID": "CODE_OF_CONDUCT.html#enforcement-responsibilities",
-    "href": "CODE_OF_CONDUCT.html#enforcement-responsibilities",
-    "title": "Contributor Covenant Code of Conduct",
-    "section": "",
-    "text": "Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.\nCommunity leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate."
-  },
-  {
-    "objectID": "CODE_OF_CONDUCT.html#scope",
-    "href": "CODE_OF_CONDUCT.html#scope",
-    "title": "Contributor Covenant Code of Conduct",
-    "section": "",
-    "text": "This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event."
-  },
-  {
-    "objectID": "CODE_OF_CONDUCT.html#enforcement",
-    "href": "CODE_OF_CONDUCT.html#enforcement",
-    "title": "Contributor Covenant Code of Conduct",
-    "section": "",
-    "text": "Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at 345776. All complaints will be reviewed and investigated promptly and fairly.\nAll community leaders are obligated to respect the privacy and security of the reporter of any incident."
-  },
-  {
-    "objectID": "CODE_OF_CONDUCT.html#enforcement-guidelines",
-    "href": "CODE_OF_CONDUCT.html#enforcement-guidelines",
-    "title": "Contributor Covenant Code of Conduct",
-    "section": "",
-    "text": "Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:\n\n\nCommunity Impact: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.\nConsequence: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.\n\n\n\nCommunity Impact: A violation through a single incident or series of actions.\nConsequence: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.\n\n\n\nCommunity Impact: A serious violation of community standards, including sustained inappropriate behavior.\nConsequence: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.\n\n\n\nCommunity Impact: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.\nConsequence: A permanent ban from any sort of public interaction within the community."
-  },
-  {
-    "objectID": "CODE_OF_CONDUCT.html#attribution",
-    "href": "CODE_OF_CONDUCT.html#attribution",
-    "title": "Contributor Covenant Code of Conduct",
-    "section": "",
-    "text": "This Code of Conduct is adapted from the Contributor Covenant, version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.\nCommunity Impact Guidelines were inspired by Mozilla’s code of conduct enforcement ladder.\nFor answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations."
-  },
-  {
-    "objectID": "quickstart.html",
-    "href": "quickstart.html",
-    "title": "Quick Start Guide — Living Earth LCCS",
-    "section": "",
-    "text": "Living Earth LCCS is an open-source Python package that generates land cover maps from Earth Observation (EO) data using the Food and Agriculture Organisation (FAO) Land Cover Classification System (LCCS v2). It has been applied at national scales in Australia, Wales, Papua New Guinea, and Switzerland, and is designed to be globally scalable.\nThe classification approach works by combining Environmental Descriptors (EDs) — measurable properties of the landscape retrieved from satellite data — through a hierarchical decision-tree framework to produce standardised land cover classes. These classes fall into three levels:\n\n\n\n\n\n\n\nDescriptor type\nRole\n\n\n\n\nOverarching EDs (OEDs)\nDetermine the 8 base-level LCCS Level 3 classes (e.g. vegetated vs. bare, terrestrial vs. aquatic, managed vs. natural)\n\n\nEssential EDs (EEDs)\nAdd detail within each L3 class (e.g. lifeform, water hydroperiod) to yield Level 4 classifications\n\n\nAdditional EDs (AEDs)\nProvide further biophysical context (e.g. soil acidity, dominant species, urban density) — not part of the core FAO taxonomy\n\n\n\nThe resulting maps can represent over 12,000 unique land cover classes, each carrying biophysical meaning and expressed as a numeric code for use in GIS applications.",
+    "objectID": "installation.html#verifying-the-installation",
+    "href": "installation.html#verifying-the-installation",
+    "title": "Installing Living Earth LCCS",
+    "section": "Verifying the Installation",
+    "text": "Verifying the Installation\nAfter installation, you can verify it worked by importing the package in Python:\nimport livingearth_lccs\nprint(livingearth_lccs.__version__)",
     "crumbs": [
-      "Quick Start"
+      "Installation"
     ]
   },
   {
-    "objectID": "quickstart.html#what-is-living-earth-lccs",
-    "href": "quickstart.html#what-is-living-earth-lccs",
-    "title": "Quick Start Guide — Living Earth LCCS",
-    "section": "",
-    "text": "Living Earth LCCS is an open-source Python package that generates land cover maps from Earth Observation (EO) data using the Food and Agriculture Organisation (FAO) Land Cover Classification System (LCCS v2). It has been applied at national scales in Australia, Wales, Papua New Guinea, and Switzerland, and is designed to be globally scalable.\nThe classification approach works by combining Environmental Descriptors (EDs) — measurable properties of the landscape retrieved from satellite data — through a hierarchical decision-tree framework to produce standardised land cover classes. These classes fall into three levels:\n\n\n\n\n\n\n\nDescriptor type\nRole\n\n\n\n\nOverarching EDs (OEDs)\nDetermine the 8 base-level LCCS Level 3 classes (e.g. vegetated vs. bare, terrestrial vs. aquatic, managed vs. natural)\n\n\nEssential EDs (EEDs)\nAdd detail within each L3 class (e.g. lifeform, water hydroperiod) to yield Level 4 classifications\n\n\nAdditional EDs (AEDs)\nProvide further biophysical context (e.g. soil acidity, dominant species, urban density) — not part of the core FAO taxonomy\n\n\n\nThe resulting maps can represent over 12,000 unique land cover classes, each carrying biophysical meaning and expressed as a numeric code for use in GIS applications.",
+    "objectID": "installation.html#notes-and-further-resources",
+    "href": "installation.html#notes-and-further-resources",
+    "title": "Installing Living Earth LCCS",
+    "section": "Notes and Further Resources",
+    "text": "Notes and Further Resources\n\n\n\n\n\n\nNote\n\n\n\nThe readthedocs installation page (/en/latest/installation.html) may not always be publicly accessible. If you can reach it, it will contain the most authoritative and up-to-date installation instructions. The steps above are based on standard Python packaging conventions and information available from the project’s documentation and publications.\n\n\n\nPlugins: The system can be expanded via plugins, and existing products can be read directly or created from Analysis Ready Data (ARD) through the use of plugins and virtual products.\nFull documentation: https://livingearth-lccs.readthedocs.io/en/latest/\nSource code: https://bitbucket.org/au-eoed/livingearth_lccs\nLicence: Apache 2.0",
     "crumbs": [
-      "Quick Start"
-    ]
-  },
-  {
-    "objectID": "quickstart.html#before-you-begin",
-    "href": "quickstart.html#before-you-begin",
-    "title": "Quick Start Guide — Living Earth LCCS",
-    "section": "Before You Begin",
-    "text": "Before You Begin\nMake sure you have completed installation as described in the Installation Guide. In summary, you need:\n\nPython ≥ 3.8\nThe livingearth_lccs package installed\nGDAL available in your environment\n(Optional) An OpenDataCube (ODC) instance if using cube-based data access\n\nVerify your installation:\nimport livingearth_lccs\nprint(livingearth_lccs.__version__)",
-    "crumbs": [
-      "Quick Start"
-    ]
-  },
-  {
-    "objectID": "quickstart.html#core-concepts",
-    "href": "quickstart.html#core-concepts",
-    "title": "Quick Start Guide — Living Earth LCCS",
-    "section": "Core Concepts",
-    "text": "Core Concepts\n\nThe LCCS Classification Hierarchy\nThe FAO LCCS operates in two stages:\nStage 1 — Dichotomous phase (Levels 1–3)\nThree binary decisions produce 8 possible Level 3 (L3) classes:\nLevel 1:  Vegetation (A)     vs.  Bare (B)\nLevel 2:  Terrestrial (1)    vs.  Aquatic (2)\nLevel 3:  Managed (odd)      vs.  Natural (even)\nValid L3 codes are: A11, A12, A23, A24, B15, B16, B27, B28.\nStage 2 — Modular-hierarchical phase (Level 4)\nEach L3 class is further described by approximately a dozen categorical L4 fields (41 in total). These encode attributes such as lifeform, canopy height, crop type, and water seasonality. L4 classes operate hierarchically: some fields must be populated before others become meaningful.\n\n\nInput Data\nLiving Earth accepts two types of data sources:\n\nGDAL-compatible rasters — any local or remote file format supported by GDAL (GeoTIFF, NetCDF, HDF, COG, etc.)\nOpenDataCube products — data indexed in an ODC instance (e.g. Digital Earth Australia, the Welsh Data Cube)\n\nInputs correspond to Environmental Descriptors and must be provided as classified or continuous raster layers (e.g. fractional vegetation cover as a percentage, water hydroperiod in months per year, lifeform as a categorical code).",
-    "crumbs": [
-      "Quick Start"
-    ]
-  },
-  {
-    "objectID": "quickstart.html#step-by-step-workflow",
-    "href": "quickstart.html#step-by-step-workflow",
-    "title": "Quick Start Guide — Living Earth LCCS",
-    "section": "Step-by-Step Workflow",
-    "text": "Step-by-Step Workflow\n\nStep 1 — Prepare Your Environmental Descriptor Inputs\nEach input raster should correspond to one Environmental Descriptor. Ensure your data:\n\nIs spatially aligned (same CRS, extent, and resolution)\nUses the correct units or category codes as expected by the LCCS layer definitions\nCovers your area of interest\n\nFor example, a minimal set of OEDs to produce L3 classifications might include:\n\n\n\n\n\n\n\n\nDescriptor\nFormat\nExample values\n\n\n\n\nPresence of vegetation cover\nBinary raster\n0 = bare, 1 = vegetated\n\n\nTerrestrial / aquatic\nBinary raster\n0 = aquatic, 1 = terrestrial\n\n\nManaged / natural\nBinary raster\n0 = natural, 1 = managed\n\n\n\nTo generate L4 detail, add EEDs such as:\n\n\n\n\n\n\n\n\nDescriptor\nFormat\nExample values\n\n\n\n\nLifeform (vegetation)\nCategorical raster\ne.g. 1 = woody, 2 = herbaceous\n\n\nAnnual water hydroperiod\nContinuous raster (months/yr)\n0–12\n\n\nCanopy height\nContinuous raster (metres)\n0–50+\n\n\n\n\n\nStep 2 — Import the Package\nimport livingearth_lccs\nFor GDAL-based raster workflows, you will typically also need:\nimport numpy as np\nfrom osgeo import gdal\n\n\nStep 3 — Load the L3 Classification Layers\nThe dichotomous L3 phase is handled by the Level 3 classification module. Pass your OED arrays (as NumPy arrays or equivalent) into the L3 decision tree:\nfrom livingearth_lccs import l3_layers_lccs\n\n# Example: load your OED rasters as numpy arrays\n# (replace these with your actual data loading steps)\nvegetation = gdal.Open(\"vegetation_cover.tif\").ReadAsArray()\nterrestrial = gdal.Open(\"terrestrial_aquatic.tif\").ReadAsArray()\nmanaged = gdal.Open(\"managed_natural.tif\").ReadAsArray()\n\n# Generate L3 classification\nl3_result = l3_layers_lccs.classify(\n    vegetation=vegetation,\n    terrestrial=terrestrial,\n    managed=managed\n)\n\n\n\n\n\n\nNote\n\n\n\nExact function signatures and argument names should be confirmed against the module docstrings in the repository (l3_layers_lccs.py) or the API reference in the documentation.\n\n\n\n\nStep 4 — Generate L4 Descriptors\nOnce L3 classes are available, pass the EED layers into the L4 module to produce the full modular-hierarchical classification. The L4 code is documented with docstrings in l4_layers_lccs.py:\nfrom livingearth_lccs import l4_layers_lccs\n\nlifeform = gdal.Open(\"lifeform.tif\").ReadAsArray()\nhydroperiod = gdal.Open(\"hydroperiod.tif\").ReadAsArray()\n\nl4_result = l4_layers_lccs.classify(\n    l3_classification=l3_result,\n    lifeform=lifeform,\n    hydroperiod=hydroperiod,\n    # ... add further EEDs as available\n)\n\n\nStep 5 — Write Output to File\nThe classification result is a raster array of integer codes (each uniquely identifying a land cover class). Write it out using GDAL:\ndriver = gdal.GetDriverByName(\"GTiff\")\nout_ds = driver.Create(\n    \"landcover_output.tif\",\n    l4_result.shape[1],   # columns\n    l4_result.shape[0],   # rows\n    1,                    # number of bands\n    gdal.GDT_Int32\n)\n\n# Copy georeferencing from one of your input files\nref_ds = gdal.Open(\"vegetation_cover.tif\")\nout_ds.SetGeoTransform(ref_ds.GetGeoTransform())\nout_ds.SetProjection(ref_ds.GetProjection())\n\nout_ds.GetRasterBand(1).WriteArray(l4_result)\nout_ds.FlushCache()\nout_ds = None\nprint(\"Output written to landcover_output.tif\")",
-    "crumbs": [
-      "Quick Start"
-    ]
-  },
-  {
-    "objectID": "quickstart.html#using-an-opendatacube-backend",
-    "href": "quickstart.html#using-an-opendatacube-backend",
-    "title": "Quick Start Guide — Living Earth LCCS",
-    "section": "Using an OpenDataCube Backend",
-    "text": "Using an OpenDataCube Backend\nIf your data is indexed in an OpenDataCube (ODC) instance, products can be loaded directly through the ODC API before passing them to the LCCS classification routines.\nimport datacube\n\ndc = datacube.Datacube(app=\"livingearth_quickstart\")\n\n# Load a product (example: fractional vegetation cover)\ndata = dc.load(\n    product=\"fc_percentile_albers_annual\",\n    x=(149.0, 150.0),\n    y=(-36.0, -35.0),\n    time=(\"2020-01-01\", \"2020-12-31\"),\n    output_crs=\"EPSG:3577\",\n    resolution=(-30, 30)\n)\n\nfvc = data[\"PV\"].values  # Photosynthetic Vegetation fraction\nPass the resulting NumPy arrays into the LCCS classification modules as shown in Steps 3 and 4 above.",
-    "crumbs": [
-      "Quick Start"
-    ]
-  },
-  {
-    "objectID": "quickstart.html#using-plugins",
-    "href": "quickstart.html#using-plugins",
-    "title": "Quick Start Guide — Living Earth LCCS",
-    "section": "Using Plugins",
-    "text": "Using Plugins\nLiving Earth supports a plugin system for extending its input handling and for generating EDs from Analysis Ready Data (ARD). Plugins can be used to:\n\nCompute Environmental Descriptors directly from ARD (e.g. deriving hydroperiod from Sentinel-1 backscatter time series)\nIntegrate new data sources or sensors\nAdd virtual products\n\nConsult the plugin documentation and the plugins/ directory in the repository for examples of how to develop and register a plugin.",
-    "crumbs": [
-      "Quick Start"
-    ]
-  },
-  {
-    "objectID": "quickstart.html#understanding-the-output",
-    "href": "quickstart.html#understanding-the-output",
-    "title": "Quick Start Guide — Living Earth LCCS",
-    "section": "Understanding the Output",
-    "text": "Understanding the Output\nEach pixel in the output raster contains a unique integer code representing a full LCCS classification. For example:\n\nAn integer corresponding to A11 (vegetated, terrestrial, managed) combined with L4 attributes such as herbaceous lifeform, annual crop encodes a specific agricultural land cover class.\nThe full lookup table of all 573,307+ unique codes and their descriptions is available in the supplementary material of the Living Earth publication (Lewis et al., 2021, Big Earth Data).\n\nTo interpret codes, refer to the l4_layers_lccs.py docstrings or the LCCS documentation, which describe each field, its permitted values, and its dependencies.",
-    "crumbs": [
-      "Quick Start"
-    ]
-  },
-  {
-    "objectID": "quickstart.html#next-steps",
-    "href": "quickstart.html#next-steps",
-    "title": "Quick Start Guide — Living Earth LCCS",
-    "section": "Next Steps",
-    "text": "Next Steps\nOnce you have produced your first land cover map, you can:\n\nCompare maps across time to detect land cover change using the Living Earth Global Change Taxonomy\nGenerate habitat maps through direct translation of selected LCCS classes (as done for Wales)\nQuantify uncertainty associated with each Environmental Descriptor and propagate it through the classification\nExplore the interactive map of existing Living Earth products at livingearthhub.org",
-    "crumbs": [
-      "Quick Start"
-    ]
-  },
-  {
-    "objectID": "quickstart.html#key-references",
-    "href": "quickstart.html#key-references",
-    "title": "Quick Start Guide — Living Earth LCCS",
-    "section": "Key References",
-    "text": "Key References\n\nSource code: https://bitbucket.org/au-eoed/livingearth_lccs\nDocumentation: https://livingearth-lccs.readthedocs.io/en/latest/\nLiving Earth Hub: http://livingearthhub.org\nLewis et al. (2021). Living Earth: Implementing national standardised land cover classification systems for Earth Observation in support of sustainable development. Big Earth Data, 5(3). https://doi.org/10.1080/20964471.2021.1948179\n\n\n\n\n\n\n\nImportant\n\n\n\nThe official documentation at livingearth-lccs.readthedocs.io contains the most up-to-date API reference, function signatures, and worked examples. Always consult it alongside this guide, as specific argument names and module structures may evolve between versions.",
-    "crumbs": [
-      "Quick Start"
-    ]
-  },
-  {
-    "objectID": "documentation/layer_values.html",
-    "href": "documentation/layer_values.html",
-    "title": "Layer values",
-    "section": "",
-    "text": "blalbla",
-    "crumbs": [
-      "Documentation",
-      "Layer values"
-    ]
-  },
-  {
-    "objectID": "documentation/layer_values.html#welcome",
-    "href": "documentation/layer_values.html#welcome",
-    "title": "Layer values",
-    "section": "",
-    "text": "blalbla",
-    "crumbs": [
-      "Documentation",
-      "Layer values"
-    ]
-  },
-  {
-    "objectID": "documentation/variables.html",
-    "href": "documentation/variables.html",
-    "title": "Variables",
-    "section": "",
-    "text": "blalbla",
-    "crumbs": [
-      "Documentation",
-      "Variables"
-    ]
-  },
-  {
-    "objectID": "documentation/variables.html#welcome",
-    "href": "documentation/variables.html#welcome",
-    "title": "Variables",
-    "section": "",
-    "text": "blalbla",
-    "crumbs": [
-      "Documentation",
-      "Variables"
-    ]
-  },
-  {
-    "objectID": "workshops/gistam2026.html",
-    "href": "workshops/gistam2026.html",
-    "title": "GISTAM 2026",
-    "section": "",
-    "text": "https://gistam.scitevents.org/Home.aspx",
-    "crumbs": [
-      "Workshops",
-      "GISTAM 2026"
-    ]
-  },
-  {
-    "objectID": "workshops/gistam2026.html#welcome",
-    "href": "workshops/gistam2026.html#welcome",
-    "title": "GISTAM 2026",
-    "section": "",
-    "text": "https://gistam.scitevents.org/Home.aspx",
-    "crumbs": [
-      "Workshops",
-      "GISTAM 2026"
-    ]
-  },
-  {
-    "objectID": "workshops/index.html",
-    "href": "workshops/index.html",
-    "title": "Workshops",
-    "section": "",
-    "text": "blalbla",
-    "crumbs": [
-      "Workshops"
-    ]
-  },
-  {
-    "objectID": "workshops/index.html#welcome",
-    "href": "workshops/index.html#welcome",
-    "title": "Workshops",
-    "section": "",
-    "text": "blalbla",
-    "crumbs": [
-      "Workshops"
+      "Installation"
     ]
   },
   {
@@ -424,6 +200,206 @@
     ]
   },
   {
+    "objectID": "workshops/gistam2026.html",
+    "href": "workshops/gistam2026.html",
+    "title": "GISTAM 2026",
+    "section": "",
+    "text": "https://gistam.scitevents.org/Home.aspx",
+    "crumbs": [
+      "Workshops",
+      "GISTAM 2026"
+    ]
+  },
+  {
+    "objectID": "workshops/gistam2026.html#welcome",
+    "href": "workshops/gistam2026.html#welcome",
+    "title": "GISTAM 2026",
+    "section": "",
+    "text": "https://gistam.scitevents.org/Home.aspx",
+    "crumbs": [
+      "Workshops",
+      "GISTAM 2026"
+    ]
+  },
+  {
+    "objectID": "workshops/index.html",
+    "href": "workshops/index.html",
+    "title": "Workshops",
+    "section": "",
+    "text": "blalbla",
+    "crumbs": [
+      "Workshops"
+    ]
+  },
+  {
+    "objectID": "workshops/index.html#welcome",
+    "href": "workshops/index.html#welcome",
+    "title": "Workshops",
+    "section": "",
+    "text": "blalbla",
+    "crumbs": [
+      "Workshops"
+    ]
+  },
+  {
+    "objectID": "tutorials/index.html",
+    "href": "tutorials/index.html",
+    "title": "Tutorials",
+    "section": "",
+    "text": "blalbla",
+    "crumbs": [
+      "Tutorials"
+    ]
+  },
+  {
+    "objectID": "tutorials/index.html#welcome",
+    "href": "tutorials/index.html#welcome",
+    "title": "Tutorials",
+    "section": "",
+    "text": "blalbla",
+    "crumbs": [
+      "Tutorials"
+    ]
+  },
+  {
+    "objectID": "documentation/classification.html",
+    "href": "documentation/classification.html",
+    "title": "Classification",
+    "section": "",
+    "text": "blalbla",
+    "crumbs": [
+      "Documentation",
+      "Classification"
+    ]
+  },
+  {
+    "objectID": "documentation/classification.html#welcome",
+    "href": "documentation/classification.html#welcome",
+    "title": "Classification",
+    "section": "",
+    "text": "blalbla",
+    "crumbs": [
+      "Documentation",
+      "Classification"
+    ]
+  },
+  {
+    "objectID": "documentation/index.html",
+    "href": "documentation/index.html",
+    "title": "Documentation",
+    "section": "",
+    "text": "blalbla",
+    "crumbs": [
+      "Documentation"
+    ]
+  },
+  {
+    "objectID": "documentation/index.html#welcome",
+    "href": "documentation/index.html#welcome",
+    "title": "Documentation",
+    "section": "",
+    "text": "blalbla",
+    "crumbs": [
+      "Documentation"
+    ]
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html",
+    "href": "CODE_OF_CONDUCT.html",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.\n\n\n\nExamples of behavior that contributes to a positive environment for our community include:\n\nDemonstrating empathy and kindness toward other people\nBeing respectful of differing opinions, viewpoints, and experiences\nGiving and gracefully accepting constructive feedback\nAccepting responsibility and apologizing to those affected by our mistakes, and learning from the experience\nFocusing on what is best not just for us as individuals, but for the overall community\n\nExamples of unacceptable behavior include:\n\nThe use of sexualized language or imagery, and sexual attention or advances of any kind\nTrolling, insulting or derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information, such as a physical or email address, without their explicit permission\nOther conduct which could reasonably be considered inappropriate in a professional setting\n\n\n\n\nCommunity leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.\nCommunity leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.\n\n\n\nThis Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.\n\n\n\nInstances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at 345776. All complaints will be reviewed and investigated promptly and fairly.\nAll community leaders are obligated to respect the privacy and security of the reporter of any incident.\n\n\n\nCommunity leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:\n\n\nCommunity Impact: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.\nConsequence: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.\n\n\n\nCommunity Impact: A violation through a single incident or series of actions.\nConsequence: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.\n\n\n\nCommunity Impact: A serious violation of community standards, including sustained inappropriate behavior.\nConsequence: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.\n\n\n\nCommunity Impact: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.\nConsequence: A permanent ban from any sort of public interaction within the community.\n\n\n\n\nThis Code of Conduct is adapted from the Contributor Covenant, version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.\nCommunity Impact Guidelines were inspired by Mozilla’s code of conduct enforcement ladder.\nFor answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#our-pledge",
+    "href": "CODE_OF_CONDUCT.html#our-pledge",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#our-standards",
+    "href": "CODE_OF_CONDUCT.html#our-standards",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "Examples of behavior that contributes to a positive environment for our community include:\n\nDemonstrating empathy and kindness toward other people\nBeing respectful of differing opinions, viewpoints, and experiences\nGiving and gracefully accepting constructive feedback\nAccepting responsibility and apologizing to those affected by our mistakes, and learning from the experience\nFocusing on what is best not just for us as individuals, but for the overall community\n\nExamples of unacceptable behavior include:\n\nThe use of sexualized language or imagery, and sexual attention or advances of any kind\nTrolling, insulting or derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information, such as a physical or email address, without their explicit permission\nOther conduct which could reasonably be considered inappropriate in a professional setting"
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#enforcement-responsibilities",
+    "href": "CODE_OF_CONDUCT.html#enforcement-responsibilities",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.\nCommunity leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#scope",
+    "href": "CODE_OF_CONDUCT.html#scope",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#enforcement",
+    "href": "CODE_OF_CONDUCT.html#enforcement",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at 345776. All complaints will be reviewed and investigated promptly and fairly.\nAll community leaders are obligated to respect the privacy and security of the reporter of any incident."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#enforcement-guidelines",
+    "href": "CODE_OF_CONDUCT.html#enforcement-guidelines",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:\n\n\nCommunity Impact: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.\nConsequence: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.\n\n\n\nCommunity Impact: A violation through a single incident or series of actions.\nConsequence: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.\n\n\n\nCommunity Impact: A serious violation of community standards, including sustained inappropriate behavior.\nConsequence: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.\n\n\n\nCommunity Impact: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.\nConsequence: A permanent ban from any sort of public interaction within the community."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#attribution",
+    "href": "CODE_OF_CONDUCT.html#attribution",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "This Code of Conduct is adapted from the Contributor Covenant, version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.\nCommunity Impact Guidelines were inspired by Mozilla’s code of conduct enforcement ladder.\nFor answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations."
+  },
+  {
+    "objectID": "acknowledgements.html",
+    "href": "acknowledgements.html",
+    "title": "Acknowledgements",
+    "section": "",
+    "text": "List of funding sources that supported the work.",
+    "crumbs": [
+      "Acknowledgements"
+    ]
+  },
+  {
+    "objectID": "acknowledgements.html#funding-sources",
+    "href": "acknowledgements.html#funding-sources",
+    "title": "Acknowledgements",
+    "section": "",
+    "text": "List of funding sources that supported the work.",
+    "crumbs": [
+      "Acknowledgements"
+    ]
+  },
+  {
+    "objectID": "acknowledgements.html#contributions",
+    "href": "acknowledgements.html#contributions",
+    "title": "Acknowledgements",
+    "section": "Contributions",
+    "text": "Contributions\nblacla",
+    "crumbs": [
+      "Acknowledgements"
+    ]
+  },
+  {
+    "objectID": "acknowledgements.html#publications-using-living-earth",
+    "href": "acknowledgements.html#publications-using-living-earth",
+    "title": "Acknowledgements",
+    "section": "Publications using Living Earth",
+    "text": "Publications using Living Earth\nThis is a 1-hour tutorial that can be used to teach or as self-paced learning.",
+    "crumbs": [
+      "Acknowledgements"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "The Living Earth Handbook",
@@ -524,45 +500,47 @@
     ]
   },
   {
-    "objectID": "workshops/earsel2026.html",
-    "href": "workshops/earsel2026.html",
-    "title": "EARSeL 2026",
-    "section": "",
-    "text": "https://athens2026.earsel.org",
-    "crumbs": [
-      "Workshops",
-      "EARSeL 2026"
-    ]
-  },
-  {
-    "objectID": "workshops/earsel2026.html#welcome",
-    "href": "workshops/earsel2026.html#welcome",
-    "title": "EARSeL 2026",
-    "section": "",
-    "text": "https://athens2026.earsel.org",
-    "crumbs": [
-      "Workshops",
-      "EARSeL 2026"
-    ]
-  },
-  {
-    "objectID": "documentation/index.html",
-    "href": "documentation/index.html",
-    "title": "Documentation",
+    "objectID": "documentation/variables.html",
+    "href": "documentation/variables.html",
+    "title": "Variables",
     "section": "",
     "text": "blalbla",
     "crumbs": [
-      "Documentation"
+      "Documentation",
+      "Variables"
     ]
   },
   {
-    "objectID": "documentation/index.html#welcome",
-    "href": "documentation/index.html#welcome",
-    "title": "Documentation",
+    "objectID": "documentation/variables.html#welcome",
+    "href": "documentation/variables.html#welcome",
+    "title": "Variables",
     "section": "",
     "text": "blalbla",
     "crumbs": [
-      "Documentation"
+      "Documentation",
+      "Variables"
+    ]
+  },
+  {
+    "objectID": "documentation/layer_values.html",
+    "href": "documentation/layer_values.html",
+    "title": "Layer values",
+    "section": "",
+    "text": "blalbla",
+    "crumbs": [
+      "Documentation",
+      "Layer values"
+    ]
+  },
+  {
+    "objectID": "documentation/layer_values.html#welcome",
+    "href": "documentation/layer_values.html#welcome",
+    "title": "Layer values",
+    "section": "",
+    "text": "blalbla",
+    "crumbs": [
+      "Documentation",
+      "Layer values"
     ]
   },
   {
@@ -588,25 +566,147 @@
     ]
   },
   {
-    "objectID": "documentation/classification.html",
-    "href": "documentation/classification.html",
-    "title": "Classification",
+    "objectID": "tutorials/tuto1.html",
+    "href": "tutorials/tuto1.html",
+    "title": "How to create overaching ED?",
     "section": "",
     "text": "blalbla",
     "crumbs": [
-      "Documentation",
-      "Classification"
+      "Tutorials",
+      "How to create overaching ED?"
     ]
   },
   {
-    "objectID": "documentation/classification.html#welcome",
-    "href": "documentation/classification.html#welcome",
-    "title": "Classification",
+    "objectID": "tutorials/tuto1.html#welcome",
+    "href": "tutorials/tuto1.html#welcome",
+    "title": "How to create overaching ED?",
     "section": "",
     "text": "blalbla",
     "crumbs": [
-      "Documentation",
-      "Classification"
+      "Tutorials",
+      "How to create overaching ED?"
+    ]
+  },
+  {
+    "objectID": "workshops/earsel2026.html",
+    "href": "workshops/earsel2026.html",
+    "title": "EARSeL 2026",
+    "section": "",
+    "text": "https://athens2026.earsel.org",
+    "crumbs": [
+      "Workshops",
+      "EARSeL 2026"
+    ]
+  },
+  {
+    "objectID": "workshops/earsel2026.html#welcome",
+    "href": "workshops/earsel2026.html#welcome",
+    "title": "EARSeL 2026",
+    "section": "",
+    "text": "https://athens2026.earsel.org",
+    "crumbs": [
+      "Workshops",
+      "EARSeL 2026"
+    ]
+  },
+  {
+    "objectID": "quickstart.html",
+    "href": "quickstart.html",
+    "title": "Quick Start Guide — Living Earth LCCS",
+    "section": "",
+    "text": "Living Earth LCCS is an open-source Python package that generates land cover maps from Earth Observation (EO) data using the Food and Agriculture Organisation (FAO) Land Cover Classification System (LCCS v2). It has been applied at national scales in Australia, Wales, Papua New Guinea, and Switzerland, and is designed to be globally scalable.\nThe classification approach works by combining Environmental Descriptors (EDs) — measurable properties of the landscape retrieved from satellite data — through a hierarchical decision-tree framework to produce standardised land cover classes. These classes fall into three levels:\n\n\n\n\n\n\n\nDescriptor type\nRole\n\n\n\n\nOverarching EDs (OEDs)\nDetermine the 8 base-level LCCS Level 3 classes (e.g. vegetated vs. bare, terrestrial vs. aquatic, managed vs. natural)\n\n\nEssential EDs (EEDs)\nAdd detail within each L3 class (e.g. lifeform, water hydroperiod) to yield Level 4 classifications\n\n\nAdditional EDs (AEDs)\nProvide further biophysical context (e.g. soil acidity, dominant species, urban density) — not part of the core FAO taxonomy\n\n\n\nThe resulting maps can represent over 12,000 unique land cover classes, each carrying biophysical meaning and expressed as a numeric code for use in GIS applications.",
+    "crumbs": [
+      "Quick Start"
+    ]
+  },
+  {
+    "objectID": "quickstart.html#what-is-living-earth-lccs",
+    "href": "quickstart.html#what-is-living-earth-lccs",
+    "title": "Quick Start Guide — Living Earth LCCS",
+    "section": "",
+    "text": "Living Earth LCCS is an open-source Python package that generates land cover maps from Earth Observation (EO) data using the Food and Agriculture Organisation (FAO) Land Cover Classification System (LCCS v2). It has been applied at national scales in Australia, Wales, Papua New Guinea, and Switzerland, and is designed to be globally scalable.\nThe classification approach works by combining Environmental Descriptors (EDs) — measurable properties of the landscape retrieved from satellite data — through a hierarchical decision-tree framework to produce standardised land cover classes. These classes fall into three levels:\n\n\n\n\n\n\n\nDescriptor type\nRole\n\n\n\n\nOverarching EDs (OEDs)\nDetermine the 8 base-level LCCS Level 3 classes (e.g. vegetated vs. bare, terrestrial vs. aquatic, managed vs. natural)\n\n\nEssential EDs (EEDs)\nAdd detail within each L3 class (e.g. lifeform, water hydroperiod) to yield Level 4 classifications\n\n\nAdditional EDs (AEDs)\nProvide further biophysical context (e.g. soil acidity, dominant species, urban density) — not part of the core FAO taxonomy\n\n\n\nThe resulting maps can represent over 12,000 unique land cover classes, each carrying biophysical meaning and expressed as a numeric code for use in GIS applications.",
+    "crumbs": [
+      "Quick Start"
+    ]
+  },
+  {
+    "objectID": "quickstart.html#before-you-begin",
+    "href": "quickstart.html#before-you-begin",
+    "title": "Quick Start Guide — Living Earth LCCS",
+    "section": "Before You Begin",
+    "text": "Before You Begin\nMake sure you have completed installation as described in the Installation Guide. In summary, you need:\n\nPython ≥ 3.8\nThe livingearth_lccs package installed\nGDAL available in your environment\n(Optional) An OpenDataCube (ODC) instance if using cube-based data access\n\nVerify your installation:\nimport livingearth_lccs\nprint(livingearth_lccs.__version__)",
+    "crumbs": [
+      "Quick Start"
+    ]
+  },
+  {
+    "objectID": "quickstart.html#core-concepts",
+    "href": "quickstart.html#core-concepts",
+    "title": "Quick Start Guide — Living Earth LCCS",
+    "section": "Core Concepts",
+    "text": "Core Concepts\n\nThe LCCS Classification Hierarchy\nThe FAO LCCS operates in two stages:\nStage 1 — Dichotomous phase (Levels 1–3)\nThree binary decisions produce 8 possible Level 3 (L3) classes:\nLevel 1:  Vegetation (A)     vs.  Bare (B)\nLevel 2:  Terrestrial (1)    vs.  Aquatic (2)\nLevel 3:  Managed (odd)      vs.  Natural (even)\nValid L3 codes are: A11, A12, A23, A24, B15, B16, B27, B28.\nStage 2 — Modular-hierarchical phase (Level 4)\nEach L3 class is further described by approximately a dozen categorical L4 fields (41 in total). These encode attributes such as lifeform, canopy height, crop type, and water seasonality. L4 classes operate hierarchically: some fields must be populated before others become meaningful.\n\n\nInput Data\nLiving Earth accepts two types of data sources:\n\nGDAL-compatible rasters — any local or remote file format supported by GDAL (GeoTIFF, NetCDF, HDF, COG, etc.)\nOpenDataCube products — data indexed in an ODC instance (e.g. Digital Earth Australia, the Welsh Data Cube)\n\nInputs correspond to Environmental Descriptors and must be provided as classified or continuous raster layers (e.g. fractional vegetation cover as a percentage, water hydroperiod in months per year, lifeform as a categorical code).",
+    "crumbs": [
+      "Quick Start"
+    ]
+  },
+  {
+    "objectID": "quickstart.html#step-by-step-workflow",
+    "href": "quickstart.html#step-by-step-workflow",
+    "title": "Quick Start Guide — Living Earth LCCS",
+    "section": "Step-by-Step Workflow",
+    "text": "Step-by-Step Workflow\n\nStep 1 — Prepare Your Environmental Descriptor Inputs\nEach input raster should correspond to one Environmental Descriptor. Ensure your data:\n\nIs spatially aligned (same CRS, extent, and resolution)\nUses the correct units or category codes as expected by the LCCS layer definitions\nCovers your area of interest\n\nFor example, a minimal set of OEDs to produce L3 classifications might include:\n\n\n\n\n\n\n\n\nDescriptor\nFormat\nExample values\n\n\n\n\nPresence of vegetation cover\nBinary raster\n0 = bare, 1 = vegetated\n\n\nTerrestrial / aquatic\nBinary raster\n0 = aquatic, 1 = terrestrial\n\n\nManaged / natural\nBinary raster\n0 = natural, 1 = managed\n\n\n\nTo generate L4 detail, add EEDs such as:\n\n\n\n\n\n\n\n\nDescriptor\nFormat\nExample values\n\n\n\n\nLifeform (vegetation)\nCategorical raster\ne.g. 1 = woody, 2 = herbaceous\n\n\nAnnual water hydroperiod\nContinuous raster (months/yr)\n0–12\n\n\nCanopy height\nContinuous raster (metres)\n0–50+\n\n\n\n\n\nStep 2 — Import the Package\nimport livingearth_lccs\nFor GDAL-based raster workflows, you will typically also need:\nimport numpy as np\nfrom osgeo import gdal\n\n\nStep 3 — Load the L3 Classification Layers\nThe dichotomous L3 phase is handled by the Level 3 classification module. Pass your OED arrays (as NumPy arrays or equivalent) into the L3 decision tree:\nfrom livingearth_lccs import l3_layers_lccs\n\n# Example: load your OED rasters as numpy arrays\n# (replace these with your actual data loading steps)\nvegetation = gdal.Open(\"vegetation_cover.tif\").ReadAsArray()\nterrestrial = gdal.Open(\"terrestrial_aquatic.tif\").ReadAsArray()\nmanaged = gdal.Open(\"managed_natural.tif\").ReadAsArray()\n\n# Generate L3 classification\nl3_result = l3_layers_lccs.classify(\n    vegetation=vegetation,\n    terrestrial=terrestrial,\n    managed=managed\n)\n\n\n\n\n\n\nNote\n\n\n\nExact function signatures and argument names should be confirmed against the module docstrings in the repository (l3_layers_lccs.py) or the API reference in the documentation.\n\n\n\n\nStep 4 — Generate L4 Descriptors\nOnce L3 classes are available, pass the EED layers into the L4 module to produce the full modular-hierarchical classification. The L4 code is documented with docstrings in l4_layers_lccs.py:\nfrom livingearth_lccs import l4_layers_lccs\n\nlifeform = gdal.Open(\"lifeform.tif\").ReadAsArray()\nhydroperiod = gdal.Open(\"hydroperiod.tif\").ReadAsArray()\n\nl4_result = l4_layers_lccs.classify(\n    l3_classification=l3_result,\n    lifeform=lifeform,\n    hydroperiod=hydroperiod,\n    # ... add further EEDs as available\n)\n\n\nStep 5 — Write Output to File\nThe classification result is a raster array of integer codes (each uniquely identifying a land cover class). Write it out using GDAL:\ndriver = gdal.GetDriverByName(\"GTiff\")\nout_ds = driver.Create(\n    \"landcover_output.tif\",\n    l4_result.shape[1],   # columns\n    l4_result.shape[0],   # rows\n    1,                    # number of bands\n    gdal.GDT_Int32\n)\n\n# Copy georeferencing from one of your input files\nref_ds = gdal.Open(\"vegetation_cover.tif\")\nout_ds.SetGeoTransform(ref_ds.GetGeoTransform())\nout_ds.SetProjection(ref_ds.GetProjection())\n\nout_ds.GetRasterBand(1).WriteArray(l4_result)\nout_ds.FlushCache()\nout_ds = None\nprint(\"Output written to landcover_output.tif\")",
+    "crumbs": [
+      "Quick Start"
+    ]
+  },
+  {
+    "objectID": "quickstart.html#using-an-opendatacube-backend",
+    "href": "quickstart.html#using-an-opendatacube-backend",
+    "title": "Quick Start Guide — Living Earth LCCS",
+    "section": "Using an OpenDataCube Backend",
+    "text": "Using an OpenDataCube Backend\nIf your data is indexed in an OpenDataCube (ODC) instance, products can be loaded directly through the ODC API before passing them to the LCCS classification routines.\nimport datacube\n\ndc = datacube.Datacube(app=\"livingearth_quickstart\")\n\n# Load a product (example: fractional vegetation cover)\ndata = dc.load(\n    product=\"fc_percentile_albers_annual\",\n    x=(149.0, 150.0),\n    y=(-36.0, -35.0),\n    time=(\"2020-01-01\", \"2020-12-31\"),\n    output_crs=\"EPSG:3577\",\n    resolution=(-30, 30)\n)\n\nfvc = data[\"PV\"].values  # Photosynthetic Vegetation fraction\nPass the resulting NumPy arrays into the LCCS classification modules as shown in Steps 3 and 4 above.",
+    "crumbs": [
+      "Quick Start"
+    ]
+  },
+  {
+    "objectID": "quickstart.html#using-plugins",
+    "href": "quickstart.html#using-plugins",
+    "title": "Quick Start Guide — Living Earth LCCS",
+    "section": "Using Plugins",
+    "text": "Using Plugins\nLiving Earth supports a plugin system for extending its input handling and for generating EDs from Analysis Ready Data (ARD). Plugins can be used to:\n\nCompute Environmental Descriptors directly from ARD (e.g. deriving hydroperiod from Sentinel-1 backscatter time series)\nIntegrate new data sources or sensors\nAdd virtual products\n\nConsult the plugin documentation and the plugins/ directory in the repository for examples of how to develop and register a plugin.",
+    "crumbs": [
+      "Quick Start"
+    ]
+  },
+  {
+    "objectID": "quickstart.html#understanding-the-output",
+    "href": "quickstart.html#understanding-the-output",
+    "title": "Quick Start Guide — Living Earth LCCS",
+    "section": "Understanding the Output",
+    "text": "Understanding the Output\nEach pixel in the output raster contains a unique integer code representing a full LCCS classification. For example:\n\nAn integer corresponding to A11 (vegetated, terrestrial, managed) combined with L4 attributes such as herbaceous lifeform, annual crop encodes a specific agricultural land cover class.\nThe full lookup table of all 573,307+ unique codes and their descriptions is available in the supplementary material of the Living Earth publication (Lewis et al., 2021, Big Earth Data).\n\nTo interpret codes, refer to the l4_layers_lccs.py docstrings or the LCCS documentation, which describe each field, its permitted values, and its dependencies.",
+    "crumbs": [
+      "Quick Start"
+    ]
+  },
+  {
+    "objectID": "quickstart.html#next-steps",
+    "href": "quickstart.html#next-steps",
+    "title": "Quick Start Guide — Living Earth LCCS",
+    "section": "Next Steps",
+    "text": "Next Steps\nOnce you have produced your first land cover map, you can:\n\nCompare maps across time to detect land cover change using the Living Earth Global Change Taxonomy\nGenerate habitat maps through direct translation of selected LCCS classes (as done for Wales)\nQuantify uncertainty associated with each Environmental Descriptor and propagate it through the classification\nExplore the interactive map of existing Living Earth products at livingearthhub.org",
+    "crumbs": [
+      "Quick Start"
+    ]
+  },
+  {
+    "objectID": "quickstart.html#key-references",
+    "href": "quickstart.html#key-references",
+    "title": "Quick Start Guide — Living Earth LCCS",
+    "section": "Key References",
+    "text": "Key References\n\nSource code: https://bitbucket.org/au-eoed/livingearth_lccs\nDocumentation: https://livingearth-lccs.readthedocs.io/en/latest/\nLiving Earth Hub: http://livingearthhub.org\nLewis et al. (2021). Living Earth: Implementing national standardised land cover classification systems for Earth Observation in support of sustainable development. Big Earth Data, 5(3). https://doi.org/10.1080/20964471.2021.1948179\n\n\n\n\n\n\n\nImportant\n\n\n\nThe official documentation at livingearth-lccs.readthedocs.io contains the most up-to-date API reference, function signatures, and worked examples. Always consult it alongside this guide, as specific argument names and module structures may evolve between versions.",
+    "crumbs": [
+      "Quick Start"
     ]
   },
   {
@@ -697,106 +797,6 @@
     "text": "Key Reference\nLucas, R.M., German, S., Metternicht, G., Schmidt, R.K., Owers, C.J., Prober, S.M., et al. (2022). A globally relevant change taxonomy and evidence-based change framework for land monitoring. Global Change Biology, 28(21), 6293–6317. https://doi.org/10.1111/gcb.16346\n\n\n\n\n\n\nNote\n\n\n\nThe Global Change Taxonomy glossary, containing all impact and pressure term definitions, is openly accessible at https://doi.org/10.5281/zenodo.6884999 and is designed to be updated over time through an ongoing peer-review process.",
     "crumbs": [
       "Change framework"
-    ]
-  },
-  {
-    "objectID": "tutorials/index.html",
-    "href": "tutorials/index.html",
-    "title": "Tutorials",
-    "section": "",
-    "text": "blalbla",
-    "crumbs": [
-      "Tutorials"
-    ]
-  },
-  {
-    "objectID": "tutorials/index.html#welcome",
-    "href": "tutorials/index.html#welcome",
-    "title": "Tutorials",
-    "section": "",
-    "text": "blalbla",
-    "crumbs": [
-      "Tutorials"
-    ]
-  },
-  {
-    "objectID": "installation.html",
-    "href": "installation.html",
-    "title": "Installing Living Earth LCCS",
-    "section": "",
-    "text": "Living Earth LCCS is an implementation of the FAO Land Cover Classification System (LCCS) designed to be applied to Earth Observation (EO) data. It was developed to generate land cover maps for countries such as Australia and Wales. The system takes multiple input products and combines them through a series of decision trees to produce all classes described as part of LCCS v2, with modifications where required for EO data.\nThe system is capable of ingesting products from OpenDataCube and any raster format compatible with GDAL (local or remote), with the option to expand via plugins. Existing products can be read directly, or products can be created from Analysis Ready Data (ARD) through the use of plugins and virtual products.\nThe software is open-source under an Apache 2.0 licence and hosted at the following locations:\n\nSource code: https://bitbucket.org/au-eoed/livingearth_lccs\nDocumentation: https://livingearth-lccs.readthedocs.io",
-    "crumbs": [
-      "Installation"
-    ]
-  },
-  {
-    "objectID": "installation.html#overview",
-    "href": "installation.html#overview",
-    "title": "Installing Living Earth LCCS",
-    "section": "",
-    "text": "Living Earth LCCS is an implementation of the FAO Land Cover Classification System (LCCS) designed to be applied to Earth Observation (EO) data. It was developed to generate land cover maps for countries such as Australia and Wales. The system takes multiple input products and combines them through a series of decision trees to produce all classes described as part of LCCS v2, with modifications where required for EO data.\nThe system is capable of ingesting products from OpenDataCube and any raster format compatible with GDAL (local or remote), with the option to expand via plugins. Existing products can be read directly, or products can be created from Analysis Ready Data (ARD) through the use of plugins and virtual products.\nThe software is open-source under an Apache 2.0 licence and hosted at the following locations:\n\nSource code: https://bitbucket.org/au-eoed/livingearth_lccs\nDocumentation: https://livingearth-lccs.readthedocs.io",
-    "crumbs": [
-      "Installation"
-    ]
-  },
-  {
-    "objectID": "installation.html#prerequisites",
-    "href": "installation.html#prerequisites",
-    "title": "Installing Living Earth LCCS",
-    "section": "Prerequisites",
-    "text": "Prerequisites\nBefore installing Living Earth LCCS, ensure the following are available on your system:\n\n\n\nRequirement\nNotes\n\n\n\n\nPython 3\nVersion 3.8 or later recommended\n\n\nGit\nTo clone the repository\n\n\nGDAL\nFor raster data handling\n\n\npip or conda\nPython package manager\n\n\n\nIf you intend to use Living Earth with the OpenDataCube (ODC) backend, a working ODC installation with a configured PostgreSQL database is also required.",
-    "crumbs": [
-      "Installation"
-    ]
-  },
-  {
-    "objectID": "installation.html#installation-options",
-    "href": "installation.html#installation-options",
-    "title": "Installing Living Earth LCCS",
-    "section": "Installation Options",
-    "text": "Installation Options\n\nOption 1 — Install from the Bitbucket Repository (Recommended)\nClone the repository from Bitbucket and install it locally using pip:\ngit clone https://bitbucket.org/au-eoed/livingearth_lccs.git\ncd livingearth_lccs\npip install .\nTo install in editable/development mode (so that local code changes are immediately reflected):\npip install -e .\n\n\nOption 2 — Install with Optional Dependencies\nDepending on your use case, you may wish to install additional optional dependency groups. Common extras include support for OpenDataCube integration or documentation building. Check the setup.py or pyproject.toml file in the repository for the full list of optional extras, then install as appropriate:\n# Example: install with ODC support\npip install \".[odc]\"\n\n# Example: install with documentation tools\npip install \".[docs]\"\n\n\nOption 3 — Install in a Conda/Virtual Environment (Recommended for Isolation)\nUsing a virtual environment keeps your system Python clean and avoids dependency conflicts.\n\ncondavenv\n\n\nconda create -n livingearth python=3.9\nconda activate livingearth\ngit clone https://bitbucket.org/au-eoed/livingearth_lccs.git\ncd livingearth_lccs\npip install .\n\n\npython -m venv livingearth_env\n# On Linux/macOS:\nsource livingearth_env/bin/activate\n# On Windows:\n# livingearth_env\\Scripts\\activate\ngit clone https://bitbucket.org/au-eoed/livingearth_lccs.git\ncd livingearth_lccs\npip install .",
-    "crumbs": [
-      "Installation"
-    ]
-  },
-  {
-    "objectID": "installation.html#opendatacube-integration",
-    "href": "installation.html#opendatacube-integration",
-    "title": "Installing Living Earth LCCS",
-    "section": "OpenDataCube Integration",
-    "text": "OpenDataCube Integration\nThe system is capable of ingesting products from OpenDataCube, which is the primary data backend for large-scale deployments such as Digital Earth Australia. If you plan to use this integration:\n\nInstall and configure the OpenDataCube following the ODC documentation.\nEnsure your ODC environment is connected to a PostgreSQL database.\nProducts can be indexed into ODC and then consumed directly by Living Earth LCCS.",
-    "crumbs": [
-      "Installation"
-    ]
-  },
-  {
-    "objectID": "installation.html#high-performance-computing-and-cloud-environments",
-    "href": "installation.html#high-performance-computing-and-cloud-environments",
-    "title": "Installing Living Earth LCCS",
-    "section": "High-Performance Computing and Cloud Environments",
-    "text": "High-Performance Computing and Cloud Environments\nLiving Earth has been optimised for high-performance computing, with tested compatibility on several national supercomputing facilities (e.g. Australia’s National Computational Infrastructure) and cloud services. For such environments, the installation steps above apply, but you should consult your HPC/cloud platform’s documentation for environment module management and job scheduling.",
-    "crumbs": [
-      "Installation"
-    ]
-  },
-  {
-    "objectID": "installation.html#verifying-the-installation",
-    "href": "installation.html#verifying-the-installation",
-    "title": "Installing Living Earth LCCS",
-    "section": "Verifying the Installation",
-    "text": "Verifying the Installation\nAfter installation, you can verify it worked by importing the package in Python:\nimport livingearth_lccs\nprint(livingearth_lccs.__version__)",
-    "crumbs": [
-      "Installation"
-    ]
-  },
-  {
-    "objectID": "installation.html#notes-and-further-resources",
-    "href": "installation.html#notes-and-further-resources",
-    "title": "Installing Living Earth LCCS",
-    "section": "Notes and Further Resources",
-    "text": "Notes and Further Resources\n\n\n\n\n\n\nNote\n\n\n\nThe readthedocs installation page (/en/latest/installation.html) may not always be publicly accessible. If you can reach it, it will contain the most authoritative and up-to-date installation instructions. The steps above are based on standard Python packaging conventions and information available from the project’s documentation and publications.\n\n\n\nPlugins: The system can be expanded via plugins, and existing products can be read directly or created from Analysis Ready Data (ARD) through the use of plugins and virtual products.\nFull documentation: https://livingearth-lccs.readthedocs.io/en/latest/\nSource code: https://bitbucket.org/au-eoed/livingearth_lccs\nLicence: Apache 2.0",
-    "crumbs": [
-      "Installation"
     ]
   }
 ]
